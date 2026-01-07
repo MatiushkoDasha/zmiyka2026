@@ -1,0 +1,45 @@
+[
+    {
+        "id": "luka",
+        "imageSrc": "img/lukakeychain.png",
+        "productName": "Брелок \"Вокалоїд Лука\"",
+        "productPrice": 200,
+        "avalible": true
+    },
+    {
+        "id": "miku",
+        "imageSrc": "img/mikykeychain.png",
+        "productName": "Брелок \"Хацуне Міку\"",
+        "productPrice": 200,
+        "avalible": true
+    },
+    {
+        "id": "gumi",
+        "imageSrc": "img/gumikeychain.png",
+        "productName": "Брелок \"Гумі\"",
+        "productPrice": 200,
+        "avalible": true
+    },
+    {
+        "id": "len",
+        "imageSrc": "img/lenkeychain.png",
+        "productName": "Брелок \"Кагаміне Лен\"",
+        "productPrice": 200,
+        "avalible": true
+    },
+    {
+        "id": "meiko",
+        "imageSrc": "img/meikokeychain.png",
+        "productName": "Брелок \"Меїко\"",
+        "productPrice": 200,
+        "avalible": false
+    },
+    {
+        "id": "kaito",
+        "imageSrc": "img/kaitokeychain.png",
+        "productName": "Брелок \"Кагаміне Лен\"",
+        "productPrice": 200,
+        "avalible": true
+    }
+    
+]

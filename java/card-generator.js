@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', async function() {
     const parentName = "tovar_main";
     const dataLocation = "../data.json"
 
-    
-
+    // Load data from JSON file
     data = await readData(dataLocation)
 
+    // Display each card using function
     data.forEach(element => {
         createCardElement(parentName, element)
     });
