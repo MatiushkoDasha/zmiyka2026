@@ -66,7 +66,7 @@ function createDetails(data) {
 
     const price = document.createElement("p");
     price.classList.add("price");
-    price.textContent = data.productPrice;
+    price.textContent = `${data.productPrice}грн`;
 
     const hr = document.createElement("hr");
 
