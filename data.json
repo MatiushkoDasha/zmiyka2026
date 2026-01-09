@@ -51,7 +51,16 @@
         "productName": "Брелок \"Кагаміне Лен\"",
         "productPrice": 200,
         "productDescription": "Да да за таке можнай й почку продати",
-        "avalible": true
+        "avalible": false
+    },
+     {
+        "id": "monika",
+        "imageSrc": "img/lenkeychain.png",
+        "imageHoverSrc": "img/mikuhover.png",
+        "productName": "Брелок \"Монфка\"",
+        "productPrice": 200,
+        "productDescription": "лише моніка",
+        "avalible": false
     }
     
 ]

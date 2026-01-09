@@ -6,11 +6,10 @@ function createCardElement(parentName, data) {
     // Create product card item for future manipulations
     card = document.createElement("div")
     card.classList.add("tovar")
-    card.id = data.id
+    card.id = data.idz
 
     // Fill the card with data
     card.innerHTML = `
-    <a href="#"></a>
     <img src=${data.imageSrc} alt="">
     <p class="tovarlogo">${data.productName}</p>
     <div class="tovar_info flex_between">
@@ -124,7 +123,7 @@ async function readData(dataPath) {
 document.addEventListener('DOMContentLoaded', async function() {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "../data.json"
+    const dataLocation = "data.json"
 
     // Load data from JSON file
     data = await readData(dataLocation)
