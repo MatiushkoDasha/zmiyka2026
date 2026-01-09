@@ -115,16 +115,36 @@ a {
     max-width: 250px;
 }
 
-.tovar img:hover{
-  content: url(../img/mikumainhover.png);
-   transition: all 5.3s ease;
-}
 
- img :hover {
+.luka img:hover {
     content: url(../img/lukahover.png);
     transition: all 5.3s ease;
 }
 
+.miku img:hover {
+    content: url(../img/mikuhover.png);
+    transition: all 5.3s ease;
+}
+
+.len img:hover {
+    content: url(../img/lenhover.png);
+    transition: all 5.3s ease;
+}
+
+.gumi img:hover {
+    content: url(../img/gumihover.png);
+    transition: all 5.3s ease;
+}
+
+.meiko img:hover {
+    content: url(../img/meikohover.png);
+    transition: all 5.3s ease;
+}
+
+.kaito img:hover {
+    content: url(../img/kaitohover.png);
+    transition: all 5.3s ease;
+}
 .tovar_info {
     display: flex;
     align-items: center;
@@ -200,6 +220,10 @@ display: none;
 
 .info {
     padding-top: 20px;
+}
+
+.info li {
+    padding-top: 10px;
 }
 
 .canel svg {
