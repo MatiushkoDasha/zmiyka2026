@@ -106,6 +106,10 @@ a {
     color: #2b1802;
 }
 
+.tovar_list a:hover {
+    color: #4d771c;
+}
+
 .tovar_main {
     flex-wrap: wrap;
     justify-content: center;
@@ -226,6 +230,33 @@ footer {
 
 .sos {
     display: flex;
-   align-items: center;
-   gap: 10px;
+    align-items: center;
+    gap: 10px;
 }
+
+.sos svg {
+    fill: #221505;
+}
+
+.sos svg:hover {
+    fill: #355a0b;
+}
+
+.none {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+}
+
+.none img {
+    width: 250px;
+}
+
+.none p {
+    font-size: 20px;
+    color: #221505;
+}
+

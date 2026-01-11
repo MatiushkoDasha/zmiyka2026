@@ -99,7 +99,7 @@
         "avalible": true
     },
      {
-        "id": "tetostiker",
+        "id": "random",
         "imageSrc": "img/random.png",
         "imageHoverSrc": "img/randomhover.png",
         "productName": "Рандомка \"брелок\"",
@@ -115,15 +115,5 @@
         "productPrice": 420,
         "productDescription": "тето килимок для миші",
         "avalible": true
-    },
-     {
-        "id": "tetokulumok",
-        "imageSrc": "img/tetokulumok.png",
-        "imageHoverSrc": "img/tetokulumokhover.png",
-        "productName": "Килимок \"тето\"",
-        "productPrice": 420,
-        "productDescription": "тето килимок для миші",
-        "avalible": true
     }
-    
 ]
