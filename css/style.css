@@ -124,7 +124,61 @@ a {
 .tovar_list a:hover {
     color: #267507;
 }
+.kastomopus {
+    font-size: 16rem;
+    padding: 10rem 50rem;
+    text-align: center;
+}
+.keychain h2 {
+    font-size: 25rem;
+    padding-bottom: 20rem;
+}
+.kustominfo {
+    padding: 20rem;
+}
+.keychain p {
+    font-size: 16rem;
+    width: 360rem;
+}
+.keychain img {
+    width: 300rem;
+}
+.keychain {
+    padding: 20rem 50rem;
+}
 
+.kastom_akril {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    'hsidebar header header'
+    'sidebar footer footer';
+    align-items: center;
+     gap: 10rem;
+     padding: 10rem;
+}
+
+.kastom_akril h2 {
+    font-size: 25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.side {
+    grid-area: sidebar;
+    width:270rem;
+}
+
+.head {
+    grid-area: header;
+    width: 316rem;
+
+}
+
+.footer {
+    grid-area: footer;
+    width: 316rem;
+}
 .tovar_info h3 {
     font-size: 20rem;
 }
@@ -319,7 +373,66 @@ html {
         background-color: #76911e;
         z-index: 2;
     }
-          
+.kastomopus {
+    font-size: 40rem;
+    padding: 10rem 50rem;
+    text-align: center;
+}
+.keychain {
+    flex-direction: column;
+}
+.keychain h2 {
+    text-align: center;
+    font-size: 60rem;
+    padding-bottom: 20rem;
+    font-weight: 500;
+}
+.kustominfo {
+    padding: 20rem;
+}
+.keychain p {
+    font-size: 35rem;
+    width: 100%;
+}
+.keychain img {
+    width: 100%;
+}
+.keychain {
+    padding: 20rem 50rem;
+}
+
+.kastom_akril {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    'hsidebar header header'
+    'sidebar footer footer';
+    align-items: center;
+     gap: 10rem;
+     padding: 10rem;
+}
+
+.kastom_akril h2 {
+    font-size: 25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.side {
+    grid-area: sidebar;
+    width:270rem;
+}
+
+.head {
+    grid-area: header;
+    width: 316rem;
+
+}
+
+.footer {
+    grid-area: footer;
+    width: 316rem;
+}
 
     .listheader ul{
         position: fixed;
@@ -874,7 +987,65 @@ main {
             top: 0;
             z-index: 2;
     }
-          
+
+    .keychain {
+        flex-direction: row;
+    }
+          .kastomopus {
+    font-size: 16rem;
+    padding: 10rem 50rem;
+    text-align: center;
+}
+.keychain h2 {
+    font-size: 25rem;
+    padding-bottom: 20rem;
+}
+.kustominfo {
+    padding: 20rem;
+}
+.keychain p {
+    font-size: 16rem;
+    width: 360rem;
+}
+.keychain img {
+    width: 300rem;
+}
+.keychain {
+    padding: 20rem 50rem;
+}
+
+.kastom_akril {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    'hsidebar header header'
+    'sidebar footer footer';
+    align-items: center;
+     gap: 10rem;
+     padding: 10rem;
+}
+
+.kastom_akril h2 {
+    font-size: 25rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.side {
+    grid-area: sidebar;
+    width:270rem;
+}
+
+.head {
+    grid-area: header;
+    width: 316rem;
+
+}
+
+.footer {
+    grid-area: footer;
+    width: 316rem;
+}
 
     .listheader ul{
         position:relative;

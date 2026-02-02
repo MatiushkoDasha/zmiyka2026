@@ -206,7 +206,67 @@
         "category": "badge",
         "productName": "Значки \"Alien stage\"",
         "productPrice": 70,
-        "productDescription": "Уточнення 1шт-70грн   Розмір: 58мм    Основа: залізна    Покриття: звичайне",
+        "productDescription": " Предзамовлення діє до 6 лютого Уточнення 1шт-70грн   Розмір: 58мм    Основа: залізна ",
         "avalible": false
-    }
+    },
+     {
+        "id": "mizi",
+        "imageSrc": "img/mizikey.png",
+        "imageHoverSrc": "img/mizikey.png",
+        "category": "",
+        "productName": "Брелок \"Мізі\"",
+        "productPrice": 170,
+        "productDescription": "Брелок 5см з кольоровим акрилом Предзамовлення діє до 15 січня",
+        "avalible": false
+    },
+     {
+        "id": "sua",
+        "imageSrc": "img/suakey.png",
+        "imageHoverSrc": "img/suakey.png",
+        "category": "",
+        "productName": "Брелок \"Суа\"",
+        "productPrice": 170,
+        "productDescription": "Брелок 5см з кольоровим акрилом Предзамовлення діє до 15 січня",
+        "avalible": false
+    },
+     {
+        "id": "hyuna",
+        "imageSrc": "img/hyunakey.png",
+        "imageHoverSrc": "img/hyunakey.png",
+        "category": "",
+        "productName": "Брелок \"Хьона\"",
+        "productPrice": 170,
+        "productDescription": "Брелок 5см з кольоровим акрилом Предзамовлення діє до 15 січня",
+        "avalible": false
+    },
+     {
+        "id": "till",
+        "imageSrc": "img/tillkey.png",
+        "imageHoverSrc": "img/tillkey.png",
+        "category": "",
+        "productName": "Брелок \"Тілл\"",
+        "productPrice": 170,
+        "productDescription": "Брелок 5см з кольоровим акрилом Предзамовлення діє до 15 січня",
+        "avalible": false
+    },
+     {
+        "id": "ivan",
+        "imageSrc": "img/ivankey.png",
+        "imageHoverSrc": "img/ivankey.png",
+        "category": "",
+        "productName": "Брелок \"Ванюша\"",
+        "productPrice": 170,
+        "productDescription": "Брелок 5см з кольоровим акрилом Предзамовлення діє до 15 січня",
+        "avalible": false
+     },
+     {
+        "id": "luka1",
+        "imageSrc": "img/lukakey.png",
+        "imageHoverSrc": "img/lukakey.png",
+        "category": "",
+        "productName": "Брелок \"Лука\"",
+        "productPrice": 170,
+        "productDescription": "Брелок 5см з кольоровим акрилом Предзамовлення діє до 15 січня",
+        "avalible": false
+     }
 ]

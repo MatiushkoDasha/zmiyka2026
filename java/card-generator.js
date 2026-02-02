@@ -126,7 +126,8 @@ function filterData(data, category) {
         "mousepad",
         "sticker",
         "badge",
-        "pin"
+        "pin",
+        "pred"
     ]
 
     if (!validCategories.includes(category)) {
@@ -143,7 +144,7 @@ function filterData(data, category) {
 async function displayCards(category) {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
+    const dataLocation = "../data.json"
 
     // Load data from JSON file
     let data = await readData(dataLocation)
@@ -179,6 +180,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         link_pin: "pin",
         link_mousepad: "mousepad",
         link_sticker: "sticker",
+        link_pred:"pred",
     }
     Object.keys(idCategoryBinding).forEach(id => {
         document.getElementById(id).onclick = () => displayCards(idCategoryBinding[id])
