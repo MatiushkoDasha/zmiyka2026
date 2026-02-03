@@ -619,6 +619,11 @@ html {
         width: 90%;
 
 }
+.predinfor {
+    font-size: 45rem;
+    padding-bottom: 25rem;
+    color: #1e7516;
+}
  }
 
  @media screen  and (min-width: 422px){
@@ -790,11 +795,22 @@ html {
     overflow-wrap: anywhere;
 }
 
+    .predinfor {
+        font-size: 28rem;
+        padding-bottom: 5rem;
+        color: #1e7516;
+    }
 }
 
 @media screen  and (min-width: 640px){
     html {
         font-size: 1px;
+    }
+
+    .predinfor {
+        font-size: 18rem;
+        padding-bottom: 5rem;
+        color: #1e7516;
     }
       .tovar_list {
         padding: 10rem 0rem;
@@ -901,6 +917,11 @@ main {
         font-size: .9px;
     }
 
+.predinfor {
+    font-size: 16rem;
+    padding-bottom: 5rem;
+    color: #1e7516;
+}
     .preddata {
     padding: 30rem;
     font-size: 30rem;
