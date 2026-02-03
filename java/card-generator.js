@@ -9,6 +9,7 @@ function createCardElement(parent, data) {
     card.innerHTML = `
     <img src=${data.imageSrc} alt=""   >
     <p class="tovarlogo">${data.productName}</p>
+     ${data.predinfo ? `<p class="predinfor">${data.predinfo}</p>` : ""}
     <div class="tovar_info flex_between">
     <h3>${data.productPrice}грн</h3>
     ${data.avalible ? "<p>у наявності</p>" : "<p class='nope'>нєма</p>"}
@@ -201,5 +202,36 @@ function cancelBurger() {
     listheader.style.display = "none";
     dark.style.display = "none"
 }
-cancelheader.addEventListener("click", cancelBurger)
+
+cancelheader.addEventListener("click", cancelBurger) 
 dark.addEventListener("click", cancelBurger)
+
+const akril1 = document.querySelector(".side");
+const  akril2 = document.querySelector(".head");
+const  akril3 = document.querySelector(".footer");
+const  sidehide = document.querySelector(".sidehide");
+const  headhide = document.querySelector(".headhide");
+const  footerhide = document.querySelector(".footerhide");
+const  dark_kastom = document.querySelector(".dark_kastom");
+
+akril1.addEventListener("click", () => {
+    sidehide.style.display = "block";
+    dark_kastom.style.display = "block";
+});
+
+akril2.addEventListener("click", () => {
+    headhide.style.display = "block";
+    dark_kastom.style.display = "block";
+});
+
+akril3.addEventListener("click", () => {
+    footerhide.style.display = "block";
+    dark_kastom.style.display = "block";
+});
+
+dark_kastom.addEventListener("click", () => {
+    sidehide.style.display = "none";
+    headhide.style.display = "none";
+    footerhide.style.display = "none";
+    dark_kastom.style.display = "none";
+});

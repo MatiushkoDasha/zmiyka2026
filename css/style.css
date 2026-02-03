@@ -90,7 +90,7 @@ body {
 }
 main {
     padding-top: 58rem;
-    background-color: #ffe7ac;
+    background-color: #faefd2;
 }
 
 ul {
@@ -206,6 +206,7 @@ a {
 
 .tovarlogo {
     font-size: 20rem;
+    font-weight: 500;
     color: black;
 }
 
@@ -224,7 +225,7 @@ a {
     opacity: 0;
 }
 
-.black  , .dark{
+.black, .dark, .dark_kastom{
     display: none;
     position: fixed;
     inset: 0;
@@ -232,6 +233,7 @@ a {
     background: #000;
     z-index: 1;
 }
+
 
 .bc {
     display: none;
@@ -333,6 +335,23 @@ footer {
 .none p {
     font-size: 20rem;
     color: #221505;
+}
+
+.predinfor {
+    font-size: 15rem;
+    padding-bottom: 5rem;
+    color: #1e7516;
+}
+
+.sidehide, .footerhide, .headhide{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400rem;
+    z-index: 2;
+
 }
 
  @media screen  and (min-width: 280px){
@@ -590,6 +609,16 @@ html {
             font-size: 16rem;
             color: #2b1802;
         }
+
+    .sidehide, .footerhide, .headhide{
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+
+}
  }
 
  @media screen  and (min-width: 422px){
@@ -681,7 +710,7 @@ html {
     .tovarlogo {
         font-size: 30rem;
         color: black;
-        padding-bottom: 10rem;
+        padding-bottom: 5rem;
     }
     .tovar_info {
         font-size: 27rem;
@@ -760,6 +789,7 @@ html {
     padding-top: 10rem;
     overflow-wrap: anywhere;
 }
+
 }
 
 @media screen  and (min-width: 640px){
@@ -958,6 +988,16 @@ main {
         text-align: center;
         font-size: 30rem;
     }
+
+      .sidehide, .footerhide, .headhide{
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+
+}
 }
 @media screen  and (min-width: 1024px){
     html {
