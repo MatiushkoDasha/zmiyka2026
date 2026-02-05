@@ -7,7 +7,13 @@ function createCardElement(parent, data) {
 
     // Fill the card with data
     card.innerHTML = `
-    <img src=${data.imageSrc} alt=""   >
+    <img 
+    class="lazy"
+    src="${data.blurimg}"
+    data-src="${data.imageSrc}"
+    data-hover="${data.imageHoverSrc}"
+    alt="}"
+    >
     <p class="tovarlogo">${data.productName}</p>
      ${data.predinfo ? `<p class="predinfor">${data.predinfo}</p>` : ""}
     <div class="tovar_info flex_between">
@@ -15,20 +21,42 @@ function createCardElement(parent, data) {
     ${data.avalible ? "<p>у наявності</p>" : "<p class='nope'>нєма</p>"}
     </div>`
 
+    const lazyObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const img = entry.target
+            img.src = img.dataset.src
+            img.dataset.loaded = "true"   
+            observer.unobserve(img)
+        }
+    })
+}, { rootMargin: "100px" })
+
+
     // Add image hover event listener
-    let image = card.querySelector("img")
+  let image = card.querySelector("img")
+
     image.addEventListener("mouseover", () => {
-        image.src = data.imageHoverSrc
+        if (image.dataset.loaded === "true" && image.dataset.hover) {
+            image.src = image.dataset.hover
+        }
     })
+
     image.addEventListener("mouseout", () => {
-        image.src = data.imageSrc
+        if (image.dataset.loaded === "true") {
+            image.src = image.dataset.src
+        }
     })
+
+
 
     // Add click action to create detailed view
     card.onclick = () => createDetails(data)
 
     // Add product card to document
     parent.appendChild(card)
+    lazyObserver.observe(image)
+
 }
 
 function createDetails(data) {
@@ -145,7 +173,7 @@ function filterData(data, category) {
 async function displayCards(category) {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
+    const dataLocation = "../data.json"
 
     // Load data from JSON file
     let data = await readData(dataLocation)
@@ -235,3 +263,5 @@ dark_kastom.addEventListener("click", () => {
     footerhide.style.display = "none";
     dark_kastom.style.display = "none";
 });
+
+

@@ -2,6 +2,7 @@
      {
         "id": "neru",
         "imageSrc": "img/nerukeychain.png",
+        "blurimg":"img/nerublur.png",
         "category": "keychain",
         "imageHoverSrc": "img/neruhover.png",
         "productName": "Брелок \"Неру\"",
