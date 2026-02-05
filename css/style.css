@@ -37,7 +37,7 @@ html{
 
 body {
     position: relative;
-    background-image: url(../img/sunny.jpg);
+    background-image: url(/img/notthatblue.jpg);
     padding: 0rem 12%;
     font-family: 'Montserrat';
 }
@@ -46,7 +46,7 @@ body {
     position: fixed;
     width: 76%;
     padding: 00;
-    background-color: #76911e;
+    background-color: #bac92a;
     box-sizing: border-box;
 }
 
@@ -73,6 +73,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color:#bac92a;
     gap: 15rem;
 }
 
@@ -90,7 +91,7 @@ body {
 }
 main {
     padding-top: 58rem;
-    background-color: #faefd2;
+    background-color:#fef9e5;
 }
 
 ul {
@@ -113,17 +114,18 @@ a {
 
 .tovar_list {
     padding: 10rem 0rem;
-    background-color: #e0ce93;
+    background-color: #d9a861;
 }
 
 .tovar_list a {
     font-size: 20rem;
-    color: #2b1802;
+    color: #ffffff;
 }
 
 .tovar_list a:hover {
-    color: #267507;
+    color: #f5ec72;
 }
+
 .kastomopus {
     font-size: 16rem;
     padding: 10rem 50rem;
@@ -172,7 +174,6 @@ a {
 .head {
     grid-area: header;
     width: 316rem;
-
 }
 
 .footer {
@@ -212,7 +213,7 @@ a {
 
 .tovar_info p {
     font-size: 17rem;
-    color: #6C8B08;
+    color: #92a420
 }
 
 .tovar_info .nope {
@@ -302,7 +303,7 @@ a {
 
 footer {
     padding: 5rem 0;
-    background-color: #D5A007;
+    background-color: #e85c45;
 }
 
 .sos {
@@ -369,7 +370,6 @@ html {
 
     main {
         padding-top: 197rem;
-        background-color: #ffe7ac;
     }
     .cancelheader {
         position: fixed;
@@ -389,7 +389,6 @@ html {
         top: 0;
         height: 100%;
         width: 50%;
-        background-color: #76911e;
         z-index: 2;
     }
 .kastomopus {
@@ -517,7 +516,7 @@ html {
 
 .tovar_info p {
         font-size: 40rem;
-        color: #6C8B08;
+
     }
 
 .flexus {
@@ -534,12 +533,10 @@ html {
 
 .tovar_list {
     padding: 50rem 0rem;
-    background-color: #e3cb77;
 }
 
 .tovar_list a {
     font-size: 60rem;
-    color: #2b1802;
 }
 
 .preddata {
@@ -627,16 +624,17 @@ html {
  }
 
  @media screen  and (min-width: 422px){
-html {
-    font-size: .6px;
-}
 
-.preddata {
-    padding: 30rem;
-    font-size: 40rem;
-    font-weight: 500;
-    text-align: center;
-}
+    html {
+        font-size: .6px;
+    }
+
+    .preddata {
+        padding: 30rem;
+        font-size: 40rem;
+        font-weight: 500;
+        text-align: center;
+    }
 
     body {
         padding: 0rem 0%;
@@ -644,7 +642,6 @@ html {
 
     main {
         padding-top: 100rem;
-        background-color: #ffe7ac;
     }
     .cancelheader {
         position: fixed;
@@ -659,7 +656,6 @@ html {
         top: 0;
         height: 100%;
         width: 50%;
-        background-color: #76911e;
         z-index: 2;
     }
           
@@ -727,7 +723,6 @@ html {
 
     .tovar_info p {
         font-size: 30rem;
-        color: #6C8B08;
     }
 
     .flexus {
@@ -740,12 +735,10 @@ html {
 
 .tovar_list {
     padding: 20rem 0rem;
-    background-color: #e3cb77;
 }
 
 .tovar_list a {
     font-size: 30rem;
-    color: #2b1802;
 }
 
     .bc {
@@ -812,14 +805,13 @@ html {
         padding-bottom: 5rem;
         color: #1e7516;
     }
+
       .tovar_list {
         padding: 10rem 0rem;
-        background-color: #e3cb77;
 }
 
 main {
     padding-top: 60rem;
-    background-color: #ffe7ac;
 }
 .tovar_info h3 {
     font-size: 20rem;
@@ -827,12 +819,8 @@ main {
 
 .tovar_list a {
     font-size: 20rem;
-    color: #2b1802;
 }
 
-.tovar_list a:hover {
-    color: #4d771c;
-}
 
 .tovar_main {
     flex-wrap: wrap;
@@ -862,12 +850,7 @@ main {
 }
 
 .tovar_info p {
-    font-size: 12rem;
-    color: #6C8B08;
-}
-
-.tovar_info .nope {
-    color: rgb(177, 32, 32);
+    font-size: 19rem;
 }
 
 .preddata {
@@ -917,35 +900,29 @@ main {
         font-size: .9px;
     }
 
-.predinfor {
-    font-size: 16rem;
-    padding-bottom: 5rem;
-    color: #1e7516;
-}
+    .predinfor {
+        font-size: 16rem;
+        padding-bottom: 5rem;
+        color: #1e7516;
+    }
     .preddata {
-    padding: 30rem;
-    font-size: 30rem;
-    font-weight: 500;
-    text-align: center;
-}
+        padding: 30rem;
+        font-size: 30rem;
+        font-weight: 500;
+        text-align: center;
+    }
     .tovar_list {
-    padding: 10rem 0rem;
-    background-color: #e3cb77;
-}
+        padding: 10rem 0rem;
+    }
 
-.tovar_list a {
-    font-size: 20rem;
-    color: #2b1802;
-}
+    .tovar_list a {
+        font-size: 20rem;
+    }
 
-.tovar_list a:hover {
-    color: #267507;
-}
-
-.tovar_main {
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .tovar_main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
 .tovar {
     width: 250rem;
@@ -971,7 +948,6 @@ main {
 
 .tovar_info p {
     font-size: 17rem;
-    color: #6C8B08;
 }
 
 .tovar_info .nope {
@@ -1027,7 +1003,6 @@ main {
 
     body {
         position: relative;
-        background-image: url(../img/sunny.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -1052,11 +1027,12 @@ main {
     .keychain {
         flex-direction: row;
     }
-          .kastomopus {
-    font-size: 16rem;
-    padding: 10rem 50rem;
-    text-align: center;
-}
+
+    .kastomopus {
+        font-size: 16rem;
+        padding: 10rem 50rem;
+        text-align: center;
+    }
 .keychain h2 {
     font-size: 25rem;
     padding-bottom: 20rem;
@@ -1149,24 +1125,18 @@ main {
 }
     .tovar_list {
         padding: 10rem 0rem;
-        background-color: #e3cb77;
 }
 
 main {
     padding-top: 58rem;
-    background-color: #ffe7ac;
 }
 .soc, .cancelheader {
     display: none;
 }
 .tovar_list a {
     font-size: 20rem;
-    color: #2b1802;
 }
 
-.tovar_list a:hover {
-    color: #267507;
-}
 
 .tovar_main {
     flex-wrap: wrap;
@@ -1197,7 +1167,6 @@ main {
 
 .tovar_info p {
     font-size: 17rem;
-    color: #6C8B08;
 }
 
 .tovar_info .nope {
