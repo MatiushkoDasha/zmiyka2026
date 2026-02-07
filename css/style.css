@@ -619,7 +619,7 @@ html {
     }
             
     footer a {
-            font-size: 16rem;
+            font-size: 26rem;
             color: #ffffff;
         }
 
@@ -645,6 +645,9 @@ html {
         font-size: .6px;
     }
 
+      footer a {
+            font-size: 24rem;
+        }
     .preddata {
         padding: 30rem;
         font-size: 40rem;
@@ -815,6 +818,10 @@ html {
     html {
         font-size: 1px;
     }
+
+      footer a {
+            font-size: 19rem;
+        }
 
     .predinfor {
         font-size: 18rem;
@@ -1285,9 +1292,11 @@ main {
     transform: translate(-50%, -50%);
     width: 500rem;
     z-index: 2;
-
 }
 
+  footer a {
+    font-size: 16rem;
+}
 }
 
 @media screen  and (min-width: 1200px){
