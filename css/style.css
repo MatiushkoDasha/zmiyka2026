@@ -79,7 +79,7 @@ body {
 
 .listheader a {
     font-size: 16rem;
-    color: #f7e5ce;
+    color: #f8f8f8;
 }
 
 .listheader a:hover {
@@ -146,6 +146,7 @@ a {
     width: 300rem;
 }
 .keychain {
+    justify-content: center;
     padding: 20rem 50rem;
 }
 
@@ -357,6 +358,19 @@ footer {
 .lazy {
     width: 100%;
 }
+
+
+.blur_img img {
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+}
+
+.blur_img.loaded img {
+    opacity: 1;
+}
+
+
  @media screen  and (min-width: 280px){
 html {
     font-size: .3px;
@@ -606,7 +620,7 @@ html {
             
     footer a {
             font-size: 16rem;
-            color: #2b1802;
+            color: #ffffff;
         }
 
     .sidehide, .footerhide, .headhide{
@@ -998,6 +1012,7 @@ main {
 
 }
 }
+
 @media screen  and (min-width: 1024px){
     html {
         font-size: 1px;
@@ -1120,7 +1135,6 @@ main {
 
 .listheader a {
     font-size: 16rem;
-    color: #f7e5ce;
 }
 
 .listheader li {

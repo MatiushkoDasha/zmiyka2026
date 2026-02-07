@@ -13,6 +13,7 @@
      {
         "id": "koko",
         "imageSrc": "img/kokokeyhain.png",
+        "blurimg":"img/kokoblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/kokohover.png",
         "productName": "Брелок \"Коко\"",
@@ -23,6 +24,7 @@
       {
         "id": "riche",
         "imageSrc": "img/richekeychain.png",
+        "blurimg":"img/richeblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/richehover.png",
         "productName": "Брелок \"Річе\"",
@@ -33,6 +35,7 @@
       {
         "id": "tetia",
         "imageSrc": "img/tetiakeychain.png",
+        "blurimg":"img/tetiablur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/tetiahover.png",
         "productName": "Брелок \"Тетія\"",
@@ -43,6 +46,7 @@
      {
         "id": "q",
         "imageSrc": "img/qkeychain.png",
+        "blurimg":"img/qblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/qhover.png",
         "productName": "Брелок \"Кіфлі\"",
@@ -53,9 +57,10 @@
     {
         "id": "luka",
         "imageSrc": "img/lukakeychain.png",
+        "blurimg":"img/lukablur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/lukahover.png",
-        "productName": "Брелок \"Вокалоїд Лука\"",
+        "productName": "Брелок \"Лука\"",
         "productPrice": 200,
         "productDescription": "Розмір: 5см, 7см",
         "avalible": true
@@ -63,6 +68,7 @@
     {
         "id": "miku",
         "imageSrc": "img/mikykeychain.png",
+        "blurimg":"img/mikublur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/mikuhover.png",
         "productName": "Брелок \"Хацуне Міку\"",
@@ -73,6 +79,7 @@
     {
         "id": "gumi",
         "imageSrc": "img/gumikeychain.png",
+        "blurimg":"img/gumiblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/gumihover.png",
         "productName": "Брелок \"Ґумі\"",
@@ -83,6 +90,7 @@
     {
         "id": "len",
         "imageSrc": "img/lenkeychain.png",
+        "blurimg":"img/lenblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/lenhover.png",
         "productName": "Брелок \"Каґаме Лен\"",
@@ -93,6 +101,7 @@
      {
         "id": "tetostiker",
         "imageSrc": "img/tetostiker.png",
+        "blurimg":"img/tetostikerblur.jpg",
         "category": "sticker",
         "imageHoverSrc": "img/tetostiker.png",
         "productName": "Стікерпак \"Тето\"",
@@ -103,6 +112,7 @@
      {
         "id": "random",
         "imageSrc": "img/random.png",
+        "blurimg":"img/randomblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/randomhover.png",
         "productName": "Рандомка \"брелок\"",
@@ -113,6 +123,7 @@
      {
         "id": "tetokulumok",
         "imageSrc": "img/tetokulumok.png",
+        "blurimg":"img/tetoblur.jpg",
         "category": "mousepad",
         "imageHoverSrc": "img/tetokulumokhover.png",
         "productName": "Килимок \"Тето\"",
@@ -123,6 +134,7 @@
     {
         "id": "kaito",
         "imageSrc": "img/kaitokeychain.png",
+        "blurimg":"img/keyblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/kaitohover.png",
         "productName": "Брелок \"Кайто\"",
@@ -133,6 +145,7 @@
     {
         "id": "meiko",
         "imageSrc": "img/meikokeychain.png",
+        "blurimg":"img/meikoblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/meikohover.png",
         "productName": "Брелок \"Меїко\"",
@@ -143,6 +156,7 @@
      {
         "id": "monika",
         "imageSrc": "img/monikakeychain.png",
+        "blurimg":"img/monikablur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/monikahover.png",
         "productName": "Брелок \"Моніка\"",
@@ -153,6 +167,7 @@
      {
         "id": "sayori",
         "imageSrc": "img/sayorikeychain.png",
+        "blurimg":"img/sayoryblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/sayorihover.png",
         "productName": "Брелок \"Сайорі\"",
@@ -163,6 +178,7 @@
      {
         "id": "natsuki",
         "imageSrc": "img/natsukikeychain.png",
+        "blurimg":"img/natsukiblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/natsukihover.png",
         "productName": "Брелок \"Нацукі\"",
@@ -173,6 +189,7 @@
      {
         "id": "yuri",
         "imageSrc": "img/yurikeychain.png",
+        "blurimg":"img/yuriblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/yurihover.png",
         "productName": "Брелок \"Юрі\"",
@@ -183,6 +200,7 @@
      {
         "id": "mikukulumok",
         "imageSrc": "img/mikukulumok.jpg",
+        "blurimg":"img/mikukulumokblur.jpg",
         "category": "mousepad",
         "imageHoverSrc": "img/mikukulumok.jpg",
         "productName": "Килимок \"Міку\"",
@@ -194,6 +212,7 @@
         "id": "kulumok",
         "imageSrc": "img/kulumok.png",
         "imageHoverSrc": "img/kulumok.png",
+        "blurimg":"img/kulumokblur.jpg",
         "category": "mousepad",
         "productName": "Килимок \"Крем-сода\"",
         "productPrice": 410,
@@ -204,9 +223,10 @@
         "id": "alienpin",
         "imageSrc": "img/alienpins.jpg",
         "imageHoverSrc": "img/alienpins.jpg",
+        "blurimg":"img/bageblur.jpg",
         "category": "badge",
         "productName": "Значки \"Alien stage\"",
-        "predinfo": "діє до 6 лютого",
+        "predinfo": "у процесі",
         "productPrice": 70,
         "productDescription": " Предзамовлення діє до 6 лютого Уточнення 1шт-70грн   Розмір: 58мм    Основа: залізна ",
         "avalible": false
@@ -215,6 +235,7 @@
         "id": "mizi",
         "imageSrc": "img/mizikey.png",
         "imageHoverSrc": "img/mizikey.png",
+        "blurimg":"img/miziblur.jpg",
         "category": "",
         "productName": "Брелок \"Мізі\"",
         "predinfo": "діє до 15 лютого",
@@ -226,6 +247,7 @@
         "id": "sua",
         "imageSrc": "img/suakey.png",
         "imageHoverSrc": "img/suakey.png",
+        "blurimg":"img/suablur.jpg",
         "category": "",
         "productName": "Брелок \"Суа\"",
         "predinfo": "діє до 15 лютого",
@@ -237,6 +259,7 @@
         "id": "hyuna",
         "imageSrc": "img/hyunakey.png",
         "imageHoverSrc": "img/hyunakey.png",
+        "blurimg":"img/huynablur.jpg",
         "category": "",
         "productName": "Брелок \"Хьона\"",
         "predinfo": "діє до 15 лютого",
@@ -248,6 +271,7 @@
         "id": "till",
         "imageSrc": "img/tillkey.png",
         "imageHoverSrc": "img/tillkey.png",
+        "blurimg":"img/tillblur.jpg",
         "category": "",
         "productName": "Брелок \"Тілл\"",
         "predinfo": "діє до 15 лютого",
@@ -259,6 +283,7 @@
         "id": "ivan",
         "imageSrc": "img/ivankey.png",
         "imageHoverSrc": "img/ivankey.png",
+        "blurimg":"img/ivanblur.jpg",
         "category": "",
         "productName": "Брелок \"Ванюша\"",
         "predinfo": "діє до 15 лютого",
@@ -270,6 +295,7 @@
         "id": "luka1",
         "imageSrc": "img/lukakey.png",
         "imageHoverSrc": "img/lukakey.png",
+        "blurimg":"img/lukabluralien.jpg",
         "category": "",
         "productName": "Брелок \"Лука\"",
         "predinfo": "діє до 15 лютого",

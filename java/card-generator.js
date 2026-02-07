@@ -173,7 +173,7 @@ function filterData(data, category) {
 async function displayCards(category) {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
+    const dataLocation = "../data.json"
 
     // Load data from JSON file
     let data = await readData(dataLocation)
@@ -265,3 +265,17 @@ dark_kastom.addEventListener("click", () => {
 });
 
 
+const blurdivs = document.querySelectorAll(".blur_img");
+blurdivs.forEach(div => {
+    const img = div.querySelector("img")
+
+    function loaded() {
+      div.classList.add('loaded')
+    }
+
+    if (img.complete) {
+        loaded()
+    } else{
+        img.addEventListener("load", loaded)
+    }
+})
