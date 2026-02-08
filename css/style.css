@@ -183,7 +183,9 @@ a {
 }
 .tovar_info h3 {
     font-size: 20rem;
+    font-weight: 500;
 }
+
 .tovar_main {
     flex-wrap: wrap;
     justify-content: center;

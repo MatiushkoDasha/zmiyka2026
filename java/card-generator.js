@@ -173,7 +173,7 @@ function filterData(data, category) {
 async function displayCards(category) {
     // Name of class of the card wrapper container
     const parentName = "tovar_main";
-    const dataLocation = "https://raw.githubusercontent.com/MatiushkoDasha/zmiyka2026/refs/heads/master/data.json"
+    const dataLocation = "../data.json"
 
     // Load data from JSON file
     let data = await readData(dataLocation)
