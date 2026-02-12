@@ -279,3 +279,4 @@ blurdivs.forEach(div => {
         img.addEventListener("load", loaded)
     }
 })
+

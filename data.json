@@ -1,4 +1,15 @@
 [
+    {
+        "id": "tetokey",
+        "imageSrc": "img/tetokeychain.png",
+        "blurimg":"img/tetokeychainblur.png",
+        "category": "keychain",
+        "imageHoverSrc": "img/tetohoverkey.png",
+        "productName": "Брелок \"Тето\"",
+        "productPrice": 200,
+        "productDescription": "Розмір: 5см, 7см ",
+        "avalible": true
+    },
      {
         "id": "neru",
         "imageSrc": "img/nerukeychain.png",
@@ -219,17 +230,6 @@
         "productDescription": "Розмір: 22см, 24см ",
         "avalible": false
  }, {
-        "id": "alienpin",
-        "imageSrc": "img/alienpins.jpg",
-        "imageHoverSrc": "img/alienpins.jpg",
-        "blurimg":"img/bageblur.jpg",
-        "category": "badge",
-        "productName": "Значки \"Alien stage\"",
-        "predinfo": "у процесі",
-        "productPrice": 70,
-        "productDescription": " Уточнення 1шт-70грн   Розмір: 58мм    Основа: залізна ",
-        "avalible": false
- }, {
         "id": "mizi",
         "imageSrc": "img/mizikey.png",
         "imageHoverSrc": "img/mizikey.png",
@@ -295,6 +295,72 @@
         "predinfo": "діє до 15 лютого",
         "productPrice": 170,
         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+        "avalible": false
+        }, 
+        {
+           "id": "mizibage",
+           "imageSrc": "img/mizibage.png",
+           "imageHoverSrc": "img/mizibagehover.png",
+           "blurimg":"img/mizibageblur.png",
+           "category": "badge",
+           "productName": "Значок \"Хьона\"",
+           "productPrice": 70,
+           "productDescription": " Розмір: 58мм    Основа: залізна",
+           "avalible": false
+        },
+         {
+        "id": "suabage",
+        "imageSrc": "img/suabage.png",
+        "imageHoverSrc": "img/suabagehover.png",
+        "blurimg":"img/suabageblur.png",
+        "category": "badge",
+        "productName": "Значок \"Суа\"",
+        "productPrice": 70,
+        "productDescription": " Розмір: 58мм    Основа: залізна",
+        "avalible": false
+     },
+     {
+        "id": "tillbage",
+        "imageSrc": "img/tillbage.png",
+        "imageHoverSrc": "img/tillbagehover.png",
+        "blurimg":"img/tillbageblur.png",
+        "category": "badge",
+        "productName": "Значок \"Тілл\"",
+        "productPrice": 70,
+        "productDescription": " Розмір: 58мм    Основа: залізна",
+        "avalible": false
+     },
+     {
+        "id": "ivanbage",
+        "imageSrc": "img/ivanbage.png",
+        "imageHoverSrc": "img/ivanbagehover.png",
+        "blurimg":"img/ivanbageblur.png",
+        "category": "badge",
+        "productName": "Значок \"Ванюша\"",
+        "productPrice": 70,
+        "productDescription": " Розмір: 58мм    Основа: залізна",
+        "avalible": false
+     },
+        {
+        "id": "luka2",
+        "imageSrc": "img/lukabage.png",
+        "imageHoverSrc": "img/lukabagehover.png",
+        "blurimg":"img/lukabageblur.png",
+        "category": "badge",
+        "productName": "Значок \"Лука\"",
+        "productPrice": 70,
+        "productDescription": " Розмір: 58мм    Основа: залізна",
+        "avalible": false
+     }
+     , {
+        "id": "hyunabage",
+        "imageSrc": "img/huynabage.png",
+        "imageHoverSrc": "img/huynabagehover.png",
+        "blurimg":"img/huynabageblur.png",
+        "category": "badge",
+        "productName": "Значок \"Хьона\"",
+        "productPrice": 70,
+        "productDescription": " Розмір: 58мм    Основа: залізна",
         "avalible": false
      }
 ]
