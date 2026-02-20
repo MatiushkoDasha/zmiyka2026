@@ -406,6 +406,9 @@ footer {
     text-align: center;
 }
 
+.sos svg {
+    fill: rgb(255, 255, 255);
+}
 
  @media screen  and (min-width: 280px){
 html {
@@ -922,11 +925,6 @@ main {
     font-size: 20rem;
 }
 
-
-.tovar_main {
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .tovar {
     width: 250rem;

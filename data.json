@@ -146,7 +146,7 @@
     {
         "id": "kaito",
         "imageSrc": "img/kaitokeychain.png",
-        "blurimg":"img/keyblur.jpg",
+        "blurimg":"img/kaitoblur.jpg",
         "category": "keychain",
         "imageHoverSrc": "img/kaitohover.png",
         "productName": "Брелок \"Кайто\"",
@@ -229,81 +229,13 @@
         "productPrice": 420,
         "productDescription": "Розмір: 22см, 24см ",
         "avalible": false
- }, {
-        "id": "mizi",
-        "imageSrc": "img/mizikey.png",
-        "imageHoverSrc": "img/mizikey.png",
-        "blurimg":"img/miziblur.jpg",
-        "category": "",
-        "productName": "Брелок \"Мізі\"",
-        "predinfo": "діє до 15 лютого",
-        "productPrice": 170,
-        "productDescription": "Брелок 5см з кольоровим акрилом  ",
-        "avalible": false
- }, {
-        "id": "sua",
-        "imageSrc": "img/suakey.png",
-        "imageHoverSrc": "img/suakey.png",
-        "blurimg":"img/suablur.jpg",
-        "category": "",
-        "productName": "Брелок \"Суа\"",
-        "predinfo": "діє до 15 лютого",
-        "productPrice": 170,
-        "productDescription": "Брелок 5см з кольоровим акрилом  ",
-        "avalible": false
- }, {
-        "id": "hyuna",
-        "imageSrc": "img/hyunakey.png",
-        "imageHoverSrc": "img/hyunakey.png",
-        "blurimg":"img/huynablur.jpg",
-        "category": "",
-        "productName": "Брелок \"Хьона\"",
-        "predinfo": "діє до 15 лютого",
-        "productPrice": 170,
-        "productDescription": "Брелок 5см з кольоровим акрилом  ",
-        "avalible": false
- }, {
-        "id": "till",
-        "imageSrc": "img/tillkey.png",
-        "imageHoverSrc": "img/tillkey.png",
-        "blurimg":"img/tillblur.jpg",
-        "category": "",
-        "productName": "Брелок \"Тілл\"",
-        "predinfo": "діє до 15 лютого",
-        "productPrice": 170,
-        "productDescription": "Брелок 5см з кольоровим акрилом  ",
-        "avalible": false
-
-        },{
-        "id": "ivan",
-        "imageSrc": "img/ivankey.png",
-        "imageHoverSrc": "img/ivankey.png",
-        "blurimg":"img/ivanblur.jpg",
-        "category": "",
-        "productName": "Брелок \"Ванюша\"",
-        "predinfo": "діє до 15 лютого",
-        "productPrice": 170,
-        "productDescription": "Брелок 5см з кольоровим акрилом  ",
-        "avalible": false
-    }, {
-        "id": "luka1",
-        "imageSrc": "img/lukakey.png",
-        "imageHoverSrc": "img/lukakey.png",
-        "blurimg":"img/lukabluralien.jpg",
-        "category": "",
-        "productName": "Брелок \"Лука\"",
-        "predinfo": "діє до 15 лютого",
-        "productPrice": 170,
-        "productDescription": "Брелок 5см з кольоровим акрилом  ",
-        "avalible": false
-        }, 
-        {
+       }, {
            "id": "mizibage",
            "imageSrc": "img/mizibage.png",
            "imageHoverSrc": "img/mizibagehover.png",
            "blurimg":"img/mizibageblur.png",
            "category": "badge",
-           "productName": "Значок \"Хьона\"",
+           "productName": "Значок \"Мізі\"",
            "productPrice": 70,
            "productDescription": " Розмір: 58мм    Основа: залізна",
            "avalible": false
@@ -312,7 +244,7 @@
         "id": "suabage",
         "imageSrc": "img/suabage.png",
         "imageHoverSrc": "img/suabagehover.png",
-        "blurimg":"img/suabageblur.png",
+        "blurimg":"img/suablurbage.png",
         "category": "badge",
         "productName": "Значок \"Суа\"",
         "productPrice": 70,
@@ -323,7 +255,7 @@
         "id": "tillbage",
         "imageSrc": "img/tillbage.png",
         "imageHoverSrc": "img/tillbagehover.png",
-        "blurimg":"img/tillbageblur.png",
+        "blurimg":"img/tillblurbage.png",
         "category": "badge",
         "productName": "Значок \"Тілл\"",
         "productPrice": 70,
@@ -356,11 +288,85 @@
         "id": "hyunabage",
         "imageSrc": "img/huynabage.png",
         "imageHoverSrc": "img/huynabagehover.png",
-        "blurimg":"img/huynabageblur.png",
+        "blurimg":"img/huynablur.jpg",
         "category": "badge",
         "productName": "Значок \"Хьона\"",
         "productPrice": 70,
         "productDescription": " Розмір: 58мм    Основа: залізна",
         "avalible": false
-     }
-]
+     }, {
+
+         "id": "mizi",
+         "imageSrc": "img/mizikey.png",
+         "imageHoverSrc": "img/mizikey.png",
+         "blurimg":"img/miziblur.jpg",
+         "category": "",
+         "productName": "Брелок \"Мізі\"",
+         "predinfo": "діє до 24 лютого",
+         "productPrice": 170,
+         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+         "avalible": false
+      }, 
+      {
+         "id": "sua",
+         "imageSrc": "img/suakey.png",
+         "imageHoverSrc": "img/suakey.png",
+         "blurimg":"img/suablur.jpg",
+         "category": "",
+         "productName": "Брелок \"Суа\"",
+         "predinfo": "діє до 24 лютого",
+         "productPrice": 170,
+         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+         "avalible": false
+      }, {
+         "id": "hyuna",
+         "imageSrc": "img/hyunakey.png",
+         "imageHoverSrc": "img/hyunakey.png",
+         "blurimg":"img/huynablur.jpg",
+         "category": "",
+         "productName": "Брелок \"Хьона\"",
+         "predinfo": "діє до 24 лютого",
+         "productPrice": 170,
+         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+         "avalible": false
+
+      }, {
+
+         "id": "till",
+         "imageSrc": "img/tillkey.png",
+         "imageHoverSrc": "img/tillkey.png",
+         "blurimg":"img/tillblur.jpg",
+         "category": "",
+         "productName": "Брелок \"Тілл\"",
+         "predinfo": "діє до 24 лютого",
+         "productPrice": 170,
+         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+         "avalible": false
+          
+      },{
+
+         "id": "ivan",
+         "imageSrc": "img/ivankey.png",
+         "imageHoverSrc": "img/ivankey.png",
+         "blurimg":"img/ivanblur.jpg",
+         "category": "",
+         "productName": "Брелок \"Ванюша\"",
+         "predinfo": "діє до 24 лютого",
+         "productPrice": 170,
+         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+         "avalible": false
+
+      }, {
+
+         "id": "luka1",
+         "imageSrc": "img/lukakey.png",
+         "imageHoverSrc": "img/lukakey.png",
+         "blurimg":"img/lukabluralien.jpg",
+         "category": "",
+         "productName": "Брелок \"Лука\"",
+         "predinfo": "діє до 24 лютого",
+         "productPrice": 170,
+         "productDescription": "Брелок 5см з кольоровим акрилом  ",
+         "avalible": false
+         }
+   ]
