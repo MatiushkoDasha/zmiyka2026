@@ -1,4 +1,26 @@
 [
+            {
+         "id": "anlst",
+         "imageSrc": "img/anlskeychain.png",
+         "imageHoverSrc": "img/anlskeychain.png",
+         "blurimg":"img/anlskeychainblur.png",
+         "category": "keychain",
+         "productName": "Брелок \"Alien stage\"",
+         "productPrice": 150,
+         "productDescription": "Брелок 3см з кольоровим акрилом  ціна за 1 шт ",
+         "avalible": true
+         }, {
+
+         "id": "madoka",
+         "imageSrc": "img/madokakeyblur.png",
+         "imageHoverSrc": "img/madokakeyblur.png",
+         "blurimg":"img/madokakey.png",
+         "category": "keychain",
+         "productName": "Брелок \"Madoka\"",
+         "productPrice": 70,
+         "productDescription": "Брелок 3см   ціна за 1 шт ",
+      "avalible": true
+         }, 
     {
         "id": "tetokey",
         "imageSrc": "img/tetokeychain.png",
@@ -302,7 +324,7 @@
          "blurimg":"img/miziblur.jpg",
          "category": "",
          "productName": "Брелок \"Мізі\"",
-         "predinfo": "діє до 24 лютого",
+         "predinfo": "в процесі",
          "productPrice": 170,
          "productDescription": "Брелок 5см з кольоровим акрилом  ",
          "avalible": false
@@ -314,7 +336,7 @@
          "blurimg":"img/suablur.jpg",
          "category": "",
          "productName": "Брелок \"Суа\"",
-         "predinfo": "діє до 24 лютого",
+         "predinfo": "в процесі",
          "productPrice": 170,
          "productDescription": "Брелок 5см з кольоровим акрилом  ",
          "avalible": false
@@ -325,7 +347,7 @@
          "blurimg":"img/huynablur.jpg",
          "category": "",
          "productName": "Брелок \"Хьона\"",
-         "predinfo": "діє до 24 лютого",
+         "predinfo": "в процесі",
          "productPrice": 170,
          "productDescription": "Брелок 5см з кольоровим акрилом  ",
          "avalible": false
@@ -338,7 +360,7 @@
          "blurimg":"img/tillblur.jpg",
          "category": "",
          "productName": "Брелок \"Тілл\"",
-         "predinfo": "діє до 24 лютого",
+         "predinfo": "в процесі",
          "productPrice": 170,
          "productDescription": "Брелок 5см з кольоровим акрилом  ",
          "avalible": false
@@ -351,7 +373,7 @@
          "blurimg":"img/ivanblur.jpg",
          "category": "",
          "productName": "Брелок \"Ванюша\"",
-         "predinfo": "діє до 24 лютого",
+         "predinfo": "в процесі",
          "productPrice": 170,
          "productDescription": "Брелок 5см з кольоровим акрилом  ",
          "avalible": false
@@ -364,9 +386,10 @@
          "blurimg":"img/lukabluralien.jpg",
          "category": "",
          "productName": "Брелок \"Лука\"",
-         "predinfo": "діє до 24 лютого",
+         "predinfo": "в процесі",
          "productPrice": 170,
          "productDescription": "Брелок 5см з кольоровим акрилом  ",
          "avalible": false
          }
+
    ]
