@@ -1,5 +1,15 @@
 [
-            {
+              {
+         "id": "madokapin",
+         "imageSrc": "img/madokapin.png",
+         "imageHoverSrc": "img/madokapinhover.png",
+         "blurimg":"img/madokapinblur.png",
+         "category": "keychain",
+         "productName": "Значок \"Madoka Magica\"",
+         "productPrice": 75,
+         "productDescription": "Значок сердечко з голографічною плівкою  ціна за 1 шт ",
+         "avalible": true
+         },  {
          "id": "anlst",
          "imageSrc": "img/anlskeychain.png",
          "imageHoverSrc": "img/anlskeychain.png",
@@ -17,9 +27,9 @@
          "blurimg":"img/madokakey.png",
          "category": "keychain",
          "productName": "Брелок \"Madoka\"",
-         "productPrice": 70,
+         "productPrice": 50,
          "productDescription": "Брелок 3см   ціна за 1 шт ",
-      "avalible": true
+         "avalible": true
          }, 
     {
         "id": "tetokey",
