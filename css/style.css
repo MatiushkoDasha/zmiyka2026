@@ -410,6 +410,28 @@ footer {
     fill: rgb(255, 255, 255);
 }
 
+.thumbs{
+    display:flex;
+    padding: 10rem 20rem;
+    gap:10rem;
+}
+
+.thumbs img {
+    width: 100rem;
+    height: 100rem;
+}
+
+.thumb{
+    width:70rem;
+    cursor:pointer;
+    border:2rem solid transparent;
+}
+
+.thumb:hover{
+    border: 4rem solid #8bce1f;
+   
+}
+
  @media screen  and (min-width: 280px){
 html {
     font-size: .3px;
@@ -436,6 +458,8 @@ html {
         font-size: 40rem;
         padding-top: 20rem;
     }
+
+  
 
     .listheader {
         display: none;
@@ -613,27 +637,20 @@ html {
     .bc {
         position: fixed;
         top: 50%;
-        /* display: flex; */
         width: 100%;
-         height: 1900rem;
-        /* flex-wrap: wrap; */
+        height: auto;
         flex-direction: column;
     }
-    .nazva {
-            font-size: 65rem;
-            font-weight: 400;
-            padding-bottom: 25rem;
-        }
 
+    .nazva {
+        font-size: 65rem;
+        font-weight: 400;
+        padding-bottom: 25rem;
+        }
 
     .bc img {
         width: 100%;
     }
-    .nazva {
-            font-size: 65rem;
-            font-weight: 400;
-            padding-bottom: 25rem;
-        }
 
     .price {
             font-size: 65rem;
@@ -642,10 +659,11 @@ html {
         }
 
     .kartca_info a {
-        /* width: 88%; */
-        left: 30rem;
-        right: 30rem;
-        bottom: 30rem;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: block;
+        margin: 40rem 0;
         padding: 55rem;
         text-align: center;
         font-size: 45rem;
@@ -655,6 +673,16 @@ html {
     .info {
         font-size: 50rem;
         padding-top: 10rem;
+    }
+
+    .thumbs {
+        padding: 50rem 20rem;
+
+}
+      .thumbs img {
+        border: 1px pink;
+        width: 230rem;
+        height: 230rem;
     }
             
     footer a {
@@ -781,15 +809,14 @@ html {
     }
 
      .tovar_info {
-                font-size: 30rem;
-                display: flex;
-                align-items: center;
-                padding-top: 10rem;
-                gap: 57rem;
+        font-size: 30rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10rem;
+        gap: 57rem;
             }
 
     .tovar {
-        /* width: 250rem; */
         width: 70%;
         padding: 30rem 10rem;
     }
@@ -835,13 +862,12 @@ html {
 
     .bc {
         position: fixed;
-        top: 50%;
-        /* display: flex; */
+        top: 55%;
         width: 100%;
-        height: 80%;
-        /* flex-wrap: wrap; */
+        height: auto;
         flex-direction: column;
     }
+
 .canel svg {
     position: absolute;
     width: 55rem;
@@ -855,31 +881,40 @@ html {
     width: 100%;
 }
 .nazva {
-        font-size: 45rem;
+        font-size: 65rem;
         font-weight: 400;
         padding-bottom: 25rem;
     }
 
     .price {
-        font-size: 45rem;
+        font-size: 55rem;
         font-weight: 500;
         padding-bottom: 25rem;
     }
 
-     .kartca_info a {
-        width: 88%;
-        bottom: 30rem;
+    .kartca_info a {
+        /* width: 88%; */
+        /* bottom: 30rem; */
         padding: 25rem;
         text-align: center;
         font-size: 30rem;
+        margin: 10rem;
     }
 
 .info {
-    font-size: 25rem;
+    font-size: 45rem;
     padding-top: 10rem;
     overflow-wrap: anywhere;
 }
 
+.thumbs img {
+    width: 160rem;
+    height: 160rem;
+}
+
+    .thumbs {
+        padding: 50rem 0rem;
+    }
     .predinfor {
         font-size: 28rem;
         padding-bottom: 5rem;
@@ -963,31 +998,26 @@ main {
     .bc {
         position: fixed;
         top: 55%;
-        /* display: flex; */
-        width: 90%;
-        height: 90%;
-        /* flex-wrap: wrap; */
+        width: 100%;
+        height: auto;
+
         flex-direction: column;
     }
 
-.nazva {
+    .nazva {
         font-size: 35rem;
         font-weight: 400;
         padding-bottom: 25rem;
-    }
+        }
 
 
-.price {
+    .price {
         font-size: 25rem;
         font-weight: 500;
         padding-bottom: 15rem;
-    }
+        }
 
     .kartca_info a {
-        /* width: 38%; */
-        bottom: 30rem;
-        left: 15rem;
-        /* right: 30rem; */
         padding: 15rem;
         text-align: center;
         font-size: 30rem;
@@ -999,6 +1029,10 @@ main {
 
     .thanks {
         font-size: 30rem;
+    }
+
+    .info {
+        font-size: 25rem;
     }
 }
         
@@ -1065,7 +1099,7 @@ main {
         top: 52%;
         display: flex;
         width: 65%;
-        height: 90%;
+        height: auto;
         flex-wrap: wrap;
         flex-direction: column;
     }
@@ -1084,11 +1118,7 @@ main {
 
     
     .kartca_info a {
-        /* width: 38%; */
-        bottom: 30rem;
-        left: 25rem;
-        /* right: 30rem; */
-        padding: 15rem;
+        padding: 20rem;
         text-align: center;
         font-size: 30rem;
     }
@@ -1298,7 +1328,12 @@ main {
 }
 
 .bc img {
-    width: 350rem;
+    width:350rem;
+}
+
+.thumbs img {
+    width: 70rem;
+    height: 70rem;
 }
 
 .kartca_info {
@@ -1323,9 +1358,10 @@ main {
 
     .kartca_info a {
         position: absolute;
-        bottom: 7%;
-        left: 585rem;
+        bottom: 6%;
+        left: 595rem;
         padding: 10rem 26rem;
+        margin: 0;
         color: #fff;
         background-color: #669d0b;
         text-align: center;
@@ -1367,6 +1403,10 @@ main {
     top: 4%;
     right: 3%;
 }
+
+    .thumbs {
+        padding: 30rem 0rem;
+    }
 
 .sidehide, .footerhide, .headhide{
     display: none;

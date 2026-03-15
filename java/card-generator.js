@@ -74,6 +74,22 @@ function createDetails(data) {
     // Set clickable elements properties
     cancelBtn.classList.add("canel")
     cancelBtn.innerHTML = svg
+ const thumbs = document.createElement("div")
+    thumbs.classList.add("thumbs")
+
+    if (data.images) {
+    data.images.forEach(src => {
+        const small = document.createElement("img")
+        small.src = src
+        small.classList.add("thumb")
+
+        small.onclick = () => {
+            img.src = src
+        }
+
+        thumbs.appendChild(small)
+    })
+}
 
     orderBtn.href = tgk
     orderBtn.innerHTML = "Замовити"
@@ -90,6 +106,8 @@ function createDetails(data) {
     const img = document.createElement("img");
     img.src = data.imageSrc;
     img.alt = data.productName;
+
+   
 
     const info = document.createElement("div");
     info.classList.add("kartca_info");
@@ -112,15 +130,16 @@ function createDetails(data) {
     // Add everything to kartka div
     kartka = document.createElement("div")
     kartka.classList.add("kartka")
-    info.append(
-        name,
-        price,
-        hr,
-        description,
-        orderBtn,
-        cancelBtn
-    );
-    card.append(img, info)
+   info.append(
+    name,
+    price,
+    hr,
+    description,
+    thumbs,
+    orderBtn,
+    cancelBtn
+);
+   card.append(img, info )
 
     kartka.append(background, card)
 

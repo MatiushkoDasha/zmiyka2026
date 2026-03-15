@@ -31,17 +31,22 @@
          "productDescription": "Брелок 3см   ціна за 1 шт ",
          "avalible": true
          }, 
-    {
-        "id": "tetokey",
-        "imageSrc": "img/tetokeychain.png",
-        "blurimg":"img/tetokeychainblur.png",
-        "category": "keychain",
-        "imageHoverSrc": "img/tetohoverkey.png",
-        "productName": "Брелок \"Тето\"",
-        "productPrice": 200,
-        "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
-    },
+      {
+      "id": "tetokey",
+      "imageSrc": "img/tetokeychain.png",
+      "images": [
+         "img/tetokeychain.png",
+         "img/tetohoverkey.png",
+         "img/ivanbage.png"
+      ],
+      "blurimg": "img/tetokeychainblur.png",
+         "imageHoverSrc": "img/tetohoverkey.png",
+      "category": "keychain",
+      "productName": "Брелок \"Тето\"",
+      "productPrice": 200,
+      "productDescription": "Розмір: 5см, 7см ",
+      "avalible": true
+      },
      {
         "id": "neru",
         "imageSrc": "img/nerukeychain.png",
