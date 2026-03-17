@@ -3,16 +3,35 @@
          "id": "madokapin",
          "imageSrc": "img/madokapin.png",
          "imageHoverSrc": "img/madokapinhover.png",
+         "images": [
+            "img/sayakapin.png",
+            "img/mamipin.png",
+            "img/madokapin1.png",
+            "img/kyokopin.png",
+            "img/homurapin.png",
+            "img/madokapin.png",
+            "img/madokapinhover.png"
+         ],
          "blurimg":"img/madokapinblur.png",
-         "category": "keychain",
+         "category": "badge",
          "productName": "Значок \"Madoka Magica\"",
          "productPrice": 75,
          "productDescription": "Значок сердечко з голографічною плівкою  ціна за 1 шт ",
          "avalible": true
-         },  {
+         },
+         {
          "id": "anlst",
          "imageSrc": "img/anlskeychain.png",
          "imageHoverSrc": "img/anlskeychain.png",
+          "images": [
+            "img/anlskeychain.png",
+            "img/minihuyona.png",
+            "img/miniivan.png",
+            "img/miniluka.png",
+            "img/minimizi.png",
+            "img/minisua.png",
+            "img/minitill.png"
+         ],
          "blurimg":"img/anlskeychainblur.png",
          "category": "keychain",
          "productName": "Брелок \"Alien stage\"",
@@ -31,22 +50,22 @@
          "productDescription": "Брелок 3см   ціна за 1 шт ",
          "avalible": true
          }, 
-      {
-      "id": "tetokey",
-      "imageSrc": "img/tetokeychain.png",
-      "images": [
-         "img/tetokeychain.png",
-         "img/tetohoverkey.png",
-         "img/ivanbage.png"
-      ],
-      "blurimg": "img/tetokeychainblur.png",
+         {
+         "id": "tetokey",
+         "imageSrc": "img/tetokeychain.png",
+         "images": [
+            "img/tetokeychain.png",
+            "img/tetohoverkey.png",
+            "img/ivanbage.png"
+         ],
+         "blurimg": "img/tetokeychainblur.png",
          "imageHoverSrc": "img/tetohoverkey.png",
-      "category": "keychain",
-      "productName": "Брелок \"Тето\"",
-      "productPrice": 200,
-      "productDescription": "Розмір: 5см, 7см ",
-      "avalible": true
-      },
+         "category": "keychain",
+         "productName": "Брелок \"Тето\"",
+         "productPrice": 200,
+         "productDescription": "Розмір: 5см, 7см ",
+         "avalible": true
+         },
      {
         "id": "neru",
         "imageSrc": "img/nerukeychain.png",
@@ -220,6 +239,10 @@
         "category": "keychain",
         "imageHoverSrc": "img/sayorihover.png",
         "productName": "Брелок \"Сайорі\"",
+        "images": [
+            "img/sayorikeychain.png",
+            "img/ukr.jpg"
+         ],
         "productPrice": 75,
         "productDescription": "Розмір: 5см, 3,5см ",
           "avalible": false
