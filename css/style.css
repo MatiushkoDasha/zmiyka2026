@@ -445,6 +445,7 @@ html {
     }
 
     .header {
+        background-color: #9b0d0d;
         width: 100%;
     }
 
@@ -637,11 +638,12 @@ html {
     right: 5%;
 }
 
-    .bc {
+     .bc {
         position: fixed;
-        top: 50%;
+        top: 65%;
         width: 100%;
-        height: auto;
+        height: 70%;
+        overflow-y: auto;
         flex-direction: column;
     }
 
