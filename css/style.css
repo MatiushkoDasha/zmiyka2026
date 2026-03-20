@@ -867,8 +867,9 @@ html {
         position: fixed;
         top: 55%;
         width: 100%;
-        height: auto;
+        height: 80%;
         flex-direction: column;
+        overflow-y: auto;
     }
 
 .canel svg {
@@ -999,12 +1000,7 @@ main {
 
 
     .bc {
-        position: fixed;
-        top: 55%;
-        width: 100%;
-        height: auto;
-
-        flex-direction: column;
+        height:90%;
     }
 
     .nazva {
@@ -1101,9 +1097,10 @@ main {
 .bc { 
         top: 52%;
         display: flex;
-        width: 65%;
-        height: auto;
-        flex-wrap: wrap;
+        width: 85%;
+        height: 90%;
+
+        overflow-y: auto;
         flex-direction: column;
     }
 
@@ -1326,6 +1323,8 @@ main {
         box-sizing:content-box;
         border-radius: 9rem;
         background-color: #fff;
+        overflow: hidden;
+        flex-direction: row;
         opacity: 1;
         z-index: 2;
     }
