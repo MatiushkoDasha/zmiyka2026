@@ -1,5 +1,38 @@
 [
-              {
+    {
+         "id": "madokastiker",
+         "imageSrc": "img/madokastiker.png",
+         "imageHoverSrc": "img/madokapinhover.png",
+         "blurimg":"img/madokastikerblur.png",
+         "category": "sticker",
+         "productName": "Стікерпак \"Madoka Magica\"",
+         "productPrice": 90,
+         "productDescription": "стікерпак А5 з голографічною плівкою ",
+         "avalible": true
+         },
+         {
+         "id": "mmjastiker",
+         "imageSrc": "img/mmjstiker.png",
+         "imageHoverSrc": "img/mmjstiker.png",
+         "blurimg":"img/mmjstikerblur.png",
+         "category": "sticker",
+         "productName": "Стікерпак \"More More jump\"",
+         "productPrice": 90,
+         "productDescription": "стікерпак А5 з голографічною плівкою ",
+         "avalible": true
+         },
+          {
+         "id": "n25stiker",
+         "imageSrc": "img/n25stiker.png",
+         "imageHoverSrc": "img/n25stiker.png",
+         "blurimg":"img/n25stikerblur.png",
+         "category": "sticker",
+         "productName": "Стікерпак \"More More jump\"",
+         "productPrice": 90,
+         "productDescription": "стікерпак А5 з голографічною плівкою ",
+         "avalible": true
+         },
+      {
          "id": "madokapin",
          "imageSrc": "img/madokapin.png",
          "imageHoverSrc": "img/madokapinhover.png",
@@ -241,7 +274,8 @@
         "productName": "Брелок \"Сайорі\"",
         "images": [
             "img/sayorikeychain.png",
-            "img/ukr.jpg"
+            "img/ukr.jpg",
+            "img/hidememe.jpg"
          ],
         "productPrice": 75,
         "productDescription": "Розмір: 5см, 3,5см ",
