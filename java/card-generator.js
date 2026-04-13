@@ -170,6 +170,7 @@ function filterData(data, category) {
     // need to display all the cards
     const validCategories = [
         "all",
+        "box",
         "keychain",
         "mousepad",
         "sticker",
@@ -223,6 +224,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     displayCards("all")
     const idCategoryBinding = {
         link_main: "all",
+        link_box: "box",
         link_keychain: "keychain",
         link_badge: "badge",
         link_pin: "pin",
