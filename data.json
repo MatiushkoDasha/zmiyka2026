@@ -266,7 +266,7 @@
         "productName": "Брелок \"Лука\"",
         "productPrice": 170,
         "productDescription": "Розмір: 5см, 7см",
-        "avalible": true
+        "avalible": false
     },
     {
         "id": "miku",
@@ -277,7 +277,7 @@
         "productName": "Брелок \"Хацуне Міку\"",
         "productPrice": 170,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
  },
     {
         "id": "gumi",
@@ -288,7 +288,7 @@
         "productName": "Брелок \"Ґумі\"",
         "productPrice": 170,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
  },
     {
         "id": "len",
@@ -321,7 +321,7 @@
         "productName": "Рандомка \"брелок\"",
         "productPrice": 150,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
  },
      {
         "id": "tetokulumok",
