@@ -1,49 +1,40 @@
-[
-    {
-         "id": "alienkeybox",
-         "imageSrc": "img/boxalien.png",
-         "imageHoverSrc": "img/boxalien.png",
-         "images": [
-            "img/boxmizi.png",
-            "img/boxhuyna.png",
-            "img/boxivan.png",
-            "img/boxluka.png",
-            "img/boxsua.png",
-            "img/boxtill.png",
-            "img/boxalien.png"
-         ],
-         "blurimg":"img/blur/madokaboxall.jpg",
-         "category": "box",
-         "productName": "Бокс \"Alien stage\"",
-         "productPrice": 270,
-         "productDescription": "Брелок з брелком на телеіон голографічний та кольоровий акрил ціна за 1 бокс ",
+[ {
+        "id": "tetokulumok",
+        "imageSrc": "img/tetokulumok.png",
+        "blurimg":"img/tetoblur.jpg",
+        "category": "mousepad",
+        "imageHoverSrc": "img/tetokulumokhover.png",
+        "productName": "Килимок \"Тето\"",
+        "productPrice": 350,
+        "productDescription": "Розмір: 22см, 24см ",
+        "avalible": true
+ },
+      {
+        "id": "ivanbage",
+        "imageSrc": "img/ivanbage.png",
+        "imageHoverSrc": "img/ivanbagehover.png",
+        "blurimg":"img/ivanbageblur.png",
+        "category": "badge",
+        "productName": "Значок \"Ванюша\"",
+        "productPrice": 70,
+        "productDescription": " Розмір: 58мм    Основа: залізна",
+        "avalible": true
+     }, {
+         "id": "madoka",
+         "imageSrc": "img/madokakeyblur.png",
+         "imageHoverSrc": "img/madokakeyblur.png",
+         "blurimg":"img/madokakey.png",
+         "category": "keychain",
+         "productName": "Брелок \"Madoka\"",
+         "productPrice": 50,
+         "productDescription": "Брелок 3см   ціна за 1 шт ",
          "avalible": true
-         },
-   {
-         "id": "madokakeybox",
-         "imageSrc": "img/madokaboxall.jpg",
-         "imageHoverSrc": "img/madokaboxall.jpg",
-         "images": [
-            "img/madokabox.png",
-            "img/homurabox.png",
-            "img/kyokobox.png",
-            "img/sayakabox.png",
-            "img/madokaboxall.jpg"
-         ],
-         "blurimg":"img/blur/madokaboxall.jpg",
-         "category": "box",
-         "productName": "Бокс \"Madoka\"",
-         "productPrice": 300,
-         "productDescription": "Брелок з голографічним або кольоровим акрилом з стікерпаком та значком сердечком ціна за 1 бокс ",
-         "avalible": true
-         },
+         }, 
    {
          "id": "madokakey",
          "imageSrc": "img/madokakeychain.png",
          "imageHoverSrc": "img/madokakeychainhover.png",
          "images": [
-            "img/madokakey.jpg",
-            "img/mamike.jpg",
             "img/homurakey.jpg",
             "img/keikokeychain.jpg",
             "img/sayakabigkey.jpg",
@@ -62,12 +53,8 @@
          "imageSrc": "img/alienkey.png",
          "imageHoverSrc": "img/alienkeyhover.png",
          "images": [
-            "img/mizikeybig.jpg",
-            "img/ivankeybig.jpg",
-            "img/huyunakeybig.jpg",
             "img/tillkeybig.jpg",
             "img/alienlukakey.jpg",
-            "img/suakeybig.jpg",
             "img/alienkeyhover.png",
             "img/alienkey.png"
          ],
@@ -78,59 +65,12 @@
          "productDescription": "Брелок з голографічним або кольоровим акрилом  ціна за 1 шт ",
          "avalible": true
          },
-          {
-        "id": "sonico",
-        "imageSrc": "img/sonico.jpg",
-        "blurimg":"img/blur/sonico.jpg",
-        "category": "keychain",
-        "imageHoverSrc": "img/sonico.jpg",
-        "productName": "Брелок \"Соніко\"",
-        "productPrice": 200,
-        "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
-    },
-    {
-         "id": "madokastiker",
-         "imageSrc": "img/madokastiker.png",
-         "imageHoverSrc": "img/madokapinhover.png",
-         "blurimg":"img/madokastikerblur.png",
-         "category": "sticker",
-         "productName": "Стікерпак \"Madoka Magica\"",
-         "productPrice": 90,
-         "productDescription": "стікерпак А5 з голографічною плівкою ",
-         "avalible": true
-         },
-         {
-         "id": "mmjastiker",
-         "imageSrc": "img/mmjstiker.png",
-         "imageHoverSrc": "img/mmjstiker.png",
-         "blurimg":"img/mmjstikerblur.png",
-         "category": "sticker",
-         "productName": "Стікерпак \"More More jump\"",
-         "productPrice": 70,
-         "productDescription": "стікерпак А5 з голографічною плівкою ",
-         "avalible": true
-         },
-
-          {
-         "id": "n25stiker",
-         "imageSrc": "img/n25stiker.png",
-         "imageHoverSrc": "img/n25stiker.png",
-         "blurimg":"img/n25stikerblur.png",
-         "category": "sticker",
-         "productName": "Стікерпак \"Nightcord25\"",
-         "productPrice": 70,
-         "productDescription": "стікерпак А5 з голографічною плівкою ",
-         "avalible": true
-         },
       {
          "id": "madokapin",
          "imageSrc": "img/madokapin.png",
          "imageHoverSrc": "img/madokapinhover.png",
          "images": [
             "img/sayakapin.png",
-            "img/mamipin.png",
-            "img/madokapin1.png",
             "img/kyokopin.png",
             "img/homurapin.png",
             "img/madokapin.png",
@@ -142,8 +82,90 @@
          "productPrice": 75,
          "productDescription": "Значок сердечко з голографічною плівкою  ціна за 1 шт ",
          "avalible": true
+         }, {
+         "id": "alienkeybox",
+         "imageSrc": "img/boxalien.png",
+         "imageHoverSrc": "img/boxalien.png",
+         "images": [
+            "img/boxmizi.png",
+            "img/boxhuyna.png",
+            "img/boxivan.png",
+            "img/boxluka.png",
+            "img/boxsua.png",
+            "img/boxtill.png",
+            "img/boxalien.png"
+         ],
+         "blurimg":"img/blur/madokaboxall.jpg",
+         "category": "box",
+         "productName": "Бокс \"Alien stage\"",
+         "productPrice": 270,
+         "productDescription": "Брелок з брелком на телеіон голографічний та кольоровий акрил ціна за 1 бокс ",
+         "avalible": false
+         },
+   {
+         "id": "madokakeybox",
+         "imageSrc": "img/madokaboxall.jpg",
+         "imageHoverSrc": "img/madokaboxall.jpg",
+         "images": [
+            "img/madokabox.png",
+            "img/homurabox.png",
+            "img/kyokobox.png",
+            "img/sayakabox.png",
+            "img/madokaboxall.jpg"
+         ],
+         "blurimg":"img/blur/madokaboxall.jpg",
+         "category": "box",
+         "productName": "Бокс \"Madoka\"",
+         "productPrice": 300,
+         "productDescription": "Брелок з голографічним або кольоровим акрилом з стікерпаком та значком сердечком ціна за 1 бокс ",
+         "avalible": false
+         },
+              {
+        "id": "sonico",
+        "imageSrc": "img/sonico.jpg",
+        "blurimg":"img/blur/sonico.jpg",
+        "category": "keychain",
+        "imageHoverSrc": "img/sonico.jpg",
+        "productName": "Брелок \"Соніко\"",
+        "productPrice": 200,
+        "productDescription": "Розмір: 5см, 7см ",
+        "avalible": false
+    },
+    {
+         "id": "madokastiker",
+         "imageSrc": "img/madokastiker.png",
+         "imageHoverSrc": "img/madokapinhover.png",
+         "blurimg":"img/madokastikerblur.png",
+         "category": "sticker",
+         "productName": "Стікерпак \"Madoka Magica\"",
+         "productPrice": 90,
+         "productDescription": "стікерпак А5 з голографічною плівкою ",
+         "avalible": false
          },
          {
+         "id": "mmjastiker",
+         "imageSrc": "img/mmjstiker.png",
+         "imageHoverSrc": "img/mmjstiker.png",
+         "blurimg":"img/mmjstikerblur.png",
+         "category": "sticker",
+         "productName": "Стікерпак \"More More jump\"",
+         "productPrice": 70,
+         "productDescription": "стікерпак А5 з голографічною плівкою ",
+         "avalible": false
+         },
+
+          {
+         "id": "n25stiker",
+         "imageSrc": "img/n25stiker.png",
+         "imageHoverSrc": "img/n25stiker.png",
+         "blurimg":"img/n25stikerblur.png",
+         "category": "sticker",
+         "productName": "Стікерпак \"Nightcord25\"",
+         "productPrice": 70,
+         "productDescription": "стікерпак А5 з голографічною плівкою ",
+         "avalible": false
+         },
+        {
          "id": "anlst",
          "imageSrc": "img/anlskeychain.png",
          "imageHoverSrc": "img/anlskeychain.png",
@@ -161,30 +183,8 @@
          "productName": "Брелок \"Alien stage\"",
          "productPrice": 150,
          "productDescription": "Брелок 3см з кольоровим акрилом  ціна за 1 шт ",
-         "avalible": true
+         "avalible": false
          },
-         {
-        "id": "ivanbage",
-        "imageSrc": "img/ivanbage.png",
-        "imageHoverSrc": "img/ivanbagehover.png",
-        "blurimg":"img/ivanbageblur.png",
-        "category": "badge",
-        "productName": "Значок \"Ванюша\"",
-        "productPrice": 70,
-        "productDescription": " Розмір: 58мм    Основа: залізна",
-        "avalible": true
-     }, {
-
-         "id": "madoka",
-         "imageSrc": "img/madokakeyblur.png",
-         "imageHoverSrc": "img/madokakeyblur.png",
-         "blurimg":"img/madokakey.png",
-         "category": "keychain",
-         "productName": "Брелок \"Madoka\"",
-         "productPrice": 50,
-         "productDescription": "Брелок 3см   ціна за 1 шт ",
-         "avalible": true
-         }, 
          {
          "id": "tetokey",
          "imageSrc": "img/tetokeychain.png",
@@ -199,7 +199,7 @@
          "productName": "Брелок \"Тето\"",
          "productPrice": 170,
          "productDescription": "Розмір: 5см, 7см ",
-         "avalible": true
+         "avalible": false
          },
      {
         "id": "neru",
@@ -210,7 +210,7 @@
         "productName": "Брелок \"Неру\"",
         "productPrice": 170,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
     },
      {
         "id": "koko",
@@ -221,7 +221,7 @@
         "productName": "Брелок \"Коко\"",
         "productPrice": 150,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
      }
       ,{
         "id": "riche",
@@ -232,7 +232,7 @@
         "productName": "Брелок \"Річе\"",
         "productPrice": 150,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
     },
     
     {
@@ -244,7 +244,7 @@
         "productName": "Брелок \"Тетія\"",
         "productPrice": 150,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
  },
      {
         "id": "q",
@@ -255,7 +255,7 @@
         "productName": "Брелок \"Кіфлі\"",
         "productPrice": 150,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
     },
     {
         "id": "luka",
@@ -299,7 +299,7 @@
         "productName": "Брелок \"Каґаме Лен\"",
         "productPrice": 170,
         "productDescription": "Розмір: 5см, 7см ",
-        "avalible": true
+        "avalible": false
  },
      {
         "id": "tetostiker",
@@ -310,7 +310,7 @@
         "productName": "Стікерпак \"Тето\"",
         "productPrice": 50,
         "productDescription": "стікерпак з тето. 5 стікерів",
-        "avalible": true
+        "avalible": false
  },
      {
         "id": "random",
@@ -323,17 +323,7 @@
         "productDescription": "Розмір: 5см, 7см ",
         "avalible": false
  },
-     {
-        "id": "tetokulumok",
-        "imageSrc": "img/tetokulumok.png",
-        "blurimg":"img/tetoblur.jpg",
-        "category": "mousepad",
-        "imageHoverSrc": "img/tetokulumokhover.png",
-        "productName": "Килимок \"Тето\"",
-        "productPrice": 350,
-        "productDescription": "Розмір: 22см, 24см ",
-        "avalible": true
- },
+    
     {
         "id": "kaito",
         "imageSrc": "img/kaitokeychain.png",
@@ -480,80 +470,5 @@
         "productPrice": 70,
         "productDescription": " Розмір: 58мм    Основа: залізна",
         "avalible": false
-     }, {
-
-         "id": "mizi",
-         "imageSrc": "img/mizikey.png",
-         "imageHoverSrc": "img/mizikey.png",
-         "blurimg":"img/miziblur.jpg",
-         "category": "",
-         "productName": "Брелок \"Мізі\"",
-         "predinfo": "в процесі",
-         "productPrice": 170,
-         "productDescription": "Брелок 5см з кольоровим акрилом  ",
-         "avalible": false
-      }, 
-      {
-         "id": "sua",
-         "imageSrc": "img/suakey.png",
-         "imageHoverSrc": "img/suakey.png",
-         "blurimg":"img/suablur.jpg",
-         "category": "",
-         "productName": "Брелок \"Суа\"",
-         "predinfo": "в процесі",
-         "productPrice": 170,
-         "productDescription": "Брелок 5см з кольоровим акрилом  ",
-         "avalible": false
-      }, {
-         "id": "hyuna",
-         "imageSrc": "img/hyunakey.png",
-         "imageHoverSrc": "img/hyunakey.png",
-         "blurimg":"img/huynablur.jpg",
-         "category": "",
-         "productName": "Брелок \"Хьона\"",
-         "predinfo": "в процесі",
-         "productPrice": 170,
-         "productDescription": "Брелок 5см з кольоровим акрилом  ",
-         "avalible": false
-
-      }, {
-
-         "id": "till",
-         "imageSrc": "img/tillkey.png",
-         "imageHoverSrc": "img/tillkey.png",
-         "blurimg":"img/tillblur.jpg",
-         "category": "",
-         "productName": "Брелок \"Тілл\"",
-         "predinfo": "в процесі",
-         "productPrice": 170,
-         "productDescription": "Брелок 5см з кольоровим акрилом  ",
-         "avalible": false
-          
-      },{
-
-         "id": "ivan",
-         "imageSrc": "img/ivankey.png",
-         "imageHoverSrc": "img/ivankey.png",
-         "blurimg":"img/ivanblur.jpg",
-         "category": "",
-         "productName": "Брелок \"Ванюша\"",
-         "predinfo": "в процесі",
-         "productPrice": 170,
-         "productDescription": "Брелок 5см з кольоровим акрилом  ",
-         "avalible": false
-
-      }, {
-
-         "id": "luka1",
-         "imageSrc": "img/lukakey.png",
-         "imageHoverSrc": "img/lukakey.png",
-         "blurimg":"img/lukabluralien.jpg",
-         "category": "",
-         "productName": "Брелок \"Лука\"",
-         "predinfo": "в процесі",
-         "productPrice": 170,
-         "productDescription": "Брелок 5см з кольоровим акрилом  ",
-         "avalible": false
-         }
-
+     }
    ]
