@@ -1164,7 +1164,7 @@ main {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        
+        background-image: url(/img/background.JPG);
         background-attachment: fixed;
         padding: 0rem 12%;
         font-family: 'Montserrat';
