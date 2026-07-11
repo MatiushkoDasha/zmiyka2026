@@ -1,5 +1,16 @@
 [
    {
+      "id": "stikervokaloid",
+      "imageSrc": "img/vocaloidstikerpack.PNG",
+      "imageHoverSrc": "img/vocaloidstikerpack.PNG",
+      "blurimg":"img/vocaloidstikerpack.PNG",
+      "category": "sticker",
+      "productName": "Стікерпак \"Сілі лоїди\"",
+      "productPrice": 60,
+      "productDescription": "Стікерпак форматом А6 з сіліками",
+      "avalible": true
+   }, 
+   {
       "id": "newtetia",
       "imageSrc": "img/tetianewkeychain.png",
       "imageHoverSrc": "img/tetianewkeychain.png",

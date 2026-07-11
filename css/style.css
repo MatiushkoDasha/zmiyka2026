@@ -37,7 +37,7 @@ html{
 
 body {
     position: relative;
-    background-image: url(/img/notthatblue.jpg);
+    background-image: url(/img/background.JPG);
     padding: 0rem 12%;
     font-family: 'Montserrat';
 }
@@ -91,7 +91,7 @@ body {
 }
 main {
     padding-top: 58rem;
-    background-color:#fef9e5;
+    background-color:#fff;
 }
 
 ul {
@@ -110,22 +110,21 @@ a {
 
 .banner img{
     width: 100%;
+    padding-bottom: 10rem;
 }
 
 .tovar_list {
     padding: 10rem 0rem;
-    background-color: #d9a861;
+    background-color: #d44138;
 }
 
 .tovar_list a {
     font-size: 20rem;
     color: #ffffff;
 }
-
 .tovar_list a:hover {
     color: #f5ec72;
 }
-
 .kastomopus {
     font-size: 16rem;
     padding: 10rem 50rem;
@@ -149,7 +148,6 @@ a {
     justify-content: center;
     padding: 20rem 50rem;
 }
-
 .kastom_akril {
     display: grid;
     justify-content: center;
@@ -157,8 +155,8 @@ a {
     'hsidebar header header'
     'sidebar footer footer';
     align-items: center;
-     gap: 10rem;
-     padding: 10rem;
+    gap: 10rem;
+    padding: 10rem;
 }
 
 .kastom_akril h2 {
@@ -189,16 +187,24 @@ a {
 .tovar_main {
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20rem;
 }
 
 .tovar {
     width: 250rem;
-    padding: 20rem 10rem;
+    background-color: white;
+    padding: 10rem 10rem 20rem 10rem;
+    transition: transform 0.5s ease;
+}
+.tovar:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #8492d4;
 }
 
 .tovar img {
     max-width: 250rem;
     padding-bottom: 6rem;
+    border-radius: 30rem;
 }
 
 .tovar_info {
@@ -249,7 +255,7 @@ a {
     height: 500rem;
     padding:  45rem 30rem;
     box-sizing: border-box;
-    border-radius: 9rem;
+    border-radius: 40rem;
     background-color: #fff;
     opacity: 1;
     z-index: 2;
@@ -257,6 +263,7 @@ a {
 
 .bc img {
     width: 420rem;
+    border-radius: 20rem;
 }
 
 .kartca_info {
@@ -306,7 +313,7 @@ a {
 
 footer {
     padding: 5rem 0;
-    background-color: #e85c45;
+    background-color: #d44138;
 }
 
 .sos {
@@ -320,7 +327,7 @@ footer {
 }
 
 .sos svg:hover {
-    fill: #355a0b;
+    fill: #bac92a;
 }
 
 .none {
@@ -429,16 +436,16 @@ footer {
     border:2rem solid transparent;
 }
 
-.thumb:hover{
-    border: 4rem solid #8bce1f;
-    transition-duration: 0.5s;
-   
-}
+    .thumb:hover{
+        border: 4rem solid #8bce1f;
+        transition-duration: 0.5s;
+    
+    }
 
  @media screen  and (min-width: 280px){
-html {
-    font-size: .3px;
-}
+    html {
+        font-size: .3px;
+    }
 
    body {
         padding: 0rem 0%;
@@ -461,9 +468,6 @@ html {
         font-size: 40rem;
         padding-top: 20rem;
     }
-
-  
-
     .listheader {
         display: none;
         position: fixed;
@@ -471,68 +475,80 @@ html {
         top: 0;
         height: 100%;
         width: 50%;
+        background-image: url(/img/lol.JPG);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
         z-index: 2;
     }
-.kastomopus {
-    font-size: 40rem;
-    padding: 10rem 50rem;
-    text-align: center;
-}
-.keychain {
-    flex-direction: column;
-}
-.keychain h2 {
-    text-align: center;
-    font-size: 60rem;
-    padding-bottom: 20rem;
-    font-weight: 500;
-}
-.kustominfo {
-    padding: 20rem;
-}
-.keychain p {
-    font-size: 35rem;
-    width: 100%;
-}
-.keychain img {
-    width: 100%;
-}
-.keychain {
-    padding: 20rem 50rem;
-}
 
-.kastom_akril {
-    display: grid;
-    justify-content: center;
-    grid-template-areas: 
-    'hsidebar header header'
-    'sidebar footer footer';
-    align-items: center;
-     gap: 10rem;
-     padding: 10rem;
-}
+    .tovar_main {
+        padding-bottom: 30%;
+        background-image: url(/img/lol2.JPG);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
 
-.kastom_akril h2 {
-    font-size: 25rem;
-    font-weight: 500;
-    text-align: center;
-}
+    .kastomopus {
+        font-size: 40rem;
+        padding: 10rem 50rem;
+        text-align: center;
+    }
+    .keychain {
+        flex-direction: column;
+    }
+    .keychain h2 {
+        text-align: center;
+        font-size: 60rem;
+        padding-bottom: 20rem;
+        font-weight: 500;
+    }
+    .kustominfo {
+        padding: 20rem;
+    }
+    .keychain p {
+        font-size: 35rem;
+        width: 100%;
+    }
+    .keychain img {
+        width: 100%;
+    }
+    .keychain {
+        padding: 20rem 50rem;
+    }
 
-.side {
-    grid-area: sidebar;
-    width:270rem;
-}
+    .kastom_akril {
+        display: grid;
+        justify-content: center;
+        grid-template-areas: 
+        'hsidebar header header'
+        'sidebar footer footer';
+        align-items: center;
+        gap: 10rem;
+        padding: 10rem;
+    }
 
-.head {
-    grid-area: header;
-    width: 316rem;
+    .kastom_akril h2 {
+        font-size: 25rem;
+        font-weight: 500;
+        text-align: center;
+    }
 
-}
+    .side {
+        grid-area: sidebar;
+        width:270rem;
+    }
 
-.footer {
+    .head {
+        grid-area: header;
+        width: 316rem;
+    }
+
+    .footer {
     grid-area: footer;
     width: 316rem;
-}
+    }
 
     .listheader ul{
         position: fixed;
@@ -563,31 +579,35 @@ html {
         padding-bottom: 130%;
     }
 
-     .tovar_info {
-                font-size: 30rem;
-                display: flex;
-                align-items: center;
-                padding-top: 10rem;
-                gap: 57rem;
-            }
+    .tovar_info {
+        font-size: 30rem;
+        display: flex;
+        align-items: center;
+        padding-top: 10rem;
+        gap: 57rem;
+        }
 
     .tovar {
-        /* width: 250rem; */
-        width: 70%;
-        padding: 30rem 10rem;
+        width: 40%;
+        margin-top: 40rem;
+        margin-left: 15rem;
+        margin-right: 15rem;
+        border-radius: 40rem;
+        border: 10rem solid rgb(57, 83, 139);
+        padding: 40rem 30rem;
     }
 
     .tovar img {
-        /* max-width: 250rem; */
         max-width: 100%;
         padding-bottom: 6rem;
     }
 
-.tovarlogo {
-        font-size: 60rem;
-        color: black;
-        padding-bottom: 20rem;
-    }
+    .tovarlogo {
+            font-size: 60rem;
+            color: black;
+            padding-bottom: 20rem;
+        }
+
     .tovar_info {
         font-size: 27rem;
         display: flex;
@@ -596,18 +616,18 @@ html {
         gap: 57rem;
     }
 
-.tovar_info p {
-        font-size: 40rem;
+    .tovar_info p {
+            font-size: 40rem;
 
-    }
+        }
 
-.flexus {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 65rem;
-    }
+        .flexus {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 65rem;
+            }
 
 .tovar_info h3 {
     font-size: 50rem;
@@ -639,9 +659,9 @@ html {
 
      .bc {
         position: fixed;
-        top: 47%;
+        top: 50%;
         width: 100%;
-        height: 80%;
+        height: 95%;
         overflow-y: auto;
         flex-direction: column;
     }
@@ -821,10 +841,18 @@ html {
             }
 
     .tovar {
-        width: 70%;
+        width: 40%;
+        margin-top: 40rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        border-radius: 40rem;
+        border: 7rem solid rgb(57, 83, 139);
         padding: 30rem 10rem;
     }
 
+    .tovar_info h3 {
+        font-size: 30rem;
+    }
     .tovar img {
         /* max-width: 250rem; */
         max-width: 100%;
@@ -845,7 +873,7 @@ html {
     }
 
     .tovar_info p {
-        font-size: 30rem;
+        font-size: 17rem;
     }
 
     .flexus {
@@ -866,9 +894,8 @@ html {
 
     .bc {
         position: fixed;
-        top: 55%;
         width: 100%;
-        height: 80%;
+        height: 90%;
         flex-direction: column;
         overflow-y: auto;
     }
@@ -958,7 +985,7 @@ main {
     padding-top: 60rem;
 }
 .tovar_info h3 {
-    font-size: 20rem;
+    font-size: 24rem;
 }
 
 .tovar_list a {
@@ -967,12 +994,14 @@ main {
 
 
 .tovar {
-    width: 250rem;
     padding: 20rem 10rem;
 }
 
+.tovar {
+    border: 3rem solid rgb(57, 83, 139);
+}
+
 .tovar img {
-    max-width: 250rem;
     padding-bottom: 6rem;
 }
 
@@ -989,7 +1018,7 @@ main {
 }
 
 .tovar_info p {
-    font-size: 19rem;
+    font-size: 12rem;
 }
 
 .preddata {
@@ -999,11 +1028,6 @@ main {
     text-align: center;
 }
 
-
-    .bc {
-        top: 60%;
-        height: 60%;
-    }
 
     .nazva {
         font-size: 35rem;
@@ -1061,19 +1085,13 @@ main {
         font-size: 20rem;
     }
 
-    .tovar_main {
-        flex-wrap: wrap;
-        justify-content: center;
+    .tovar {
+        width: 40%;
+        padding: 30rem 20rem;
     }
 
-.tovar {
-    width: 250rem;
-    padding: 20rem 10rem;
-}
-
 .tovar img {
-    max-width: 250rem;
-    padding-bottom: 6rem;
+    padding-bottom: 20rem;
 }
 
 .tovar_info {
@@ -1084,12 +1102,12 @@ main {
 }
 
 .tovarlogo {
-    font-size: 20rem;
+    font-size: 25rem;
     color: black;
 }
 
 .tovar_info p {
-    font-size: 17rem;
+    font-size: 20rem;
 }
 
 .tovar_info .nope {
@@ -1146,7 +1164,7 @@ main {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-image: url(../img/notthatblue.jpg);
+        
         background-attachment: fixed;
         padding: 0rem 12%;
         font-family: 'Montserrat';
@@ -1250,6 +1268,7 @@ main {
 
     .listheader {
         display: flex;
+        background-image: none;
         justify-content: flex-end;
         align-items: center;
         gap: 1rem;
@@ -1280,17 +1299,22 @@ main {
 
 .tovar_main {
     flex-wrap: wrap;
+    background-image: none;
     justify-content: center;
 }
 
 .tovar {
     width: 250rem;
-    padding: 20rem 10rem;
+    margin: 0;
+    border: none;
+    background-color: white;
+    padding: 10rem 10rem 20rem 10rem;
+    transition: transform 0.5s ease;
 }
 
 .tovar img {
     max-width: 250rem;
-    padding-bottom: 6rem;
+    padding-bottom: 12rem;
 }
 
 .tovar_info {
@@ -1323,7 +1347,7 @@ main {
         height: 450rem;
         padding: 25rem 30rem;
         box-sizing:content-box;
-        border-radius: 9rem;
+        border-radius: 40rem;
         background-color: #fff;
         overflow: hidden;
         flex-direction: row;
@@ -1362,8 +1386,8 @@ main {
 
     .kartca_info a {
         position: absolute;
-        bottom: 4%;
-        left: 72%;
+        bottom: 5%;
+        left: 71%;
         padding: 10rem 26rem;
         margin: 0;
         color: #fff;

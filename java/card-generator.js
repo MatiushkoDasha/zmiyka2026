@@ -255,36 +255,6 @@ function cancelBurger() {
 cancelheader.addEventListener("click", cancelBurger) 
 dark.addEventListener("click", cancelBurger)
 
-const akril1 = document.querySelector(".side");
-const  akril2 = document.querySelector(".head");
-const  akril3 = document.querySelector(".footer");
-const  sidehide = document.querySelector(".sidehide");
-const  headhide = document.querySelector(".headhide");
-const  footerhide = document.querySelector(".footerhide");
-const  dark_kastom = document.querySelector(".dark_kastom");
-
-akril1.addEventListener("click", () => {
-    sidehide.style.display = "block";
-    dark_kastom.style.display = "block";
-});
-
-akril2.addEventListener("click", () => {
-    headhide.style.display = "block";
-    dark_kastom.style.display = "block";
-});
-
-akril3.addEventListener("click", () => {
-    footerhide.style.display = "block";
-    dark_kastom.style.display = "block";
-});
-
-dark_kastom.addEventListener("click", () => {
-    sidehide.style.display = "none";
-    headhide.style.display = "none";
-    footerhide.style.display = "none";
-    dark_kastom.style.display = "none";
-});
-
 
 const blurdivs = document.querySelectorAll(".blur_img");
 blurdivs.forEach(div => {
