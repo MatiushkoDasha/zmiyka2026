@@ -77,17 +77,6 @@
       "avalible": true
    }, 
    {
-      "id": "tetokulumok",
-      "imageSrc": "img/tetokulumok.png",
-      "blurimg":"img/tetoblur.jpg",
-      "category": "mousepad",
-      "imageHoverSrc": "img/tetokulumokhover.png",
-      "productName": "Килимок \"Тето\"",
-      "productPrice": 350,
-      "productDescription": "Розмір: 22см, 24см ",
-      "avalible": true
-   },
-   {
       "id": "ivanbage",
       "imageSrc": "img/ivanbage.png",
       "imageHoverSrc": "img/ivanbagehover.png",
@@ -114,7 +103,6 @@
       "imageSrc": "img/madokakeychain.png",
       "imageHoverSrc": "img/madokakeychainhover.png",
       "images": [
-         "img/homurakey.jpg",
          "img/keikokeychain.jpg",
          "img/sayakabigkey.jpg",
          "img/madokakeychain.png",
@@ -152,7 +140,6 @@
          "img/sayakapin.png",
          "img/kyokopin.png",
          "img/homurapin.png",
-         "img/madokapin.png",
          "img/madokapinhover.png"
       ],
       "blurimg":"img/madokapinblur.png",
@@ -162,6 +149,17 @@
       "productDescription": "Значок сердечко з голографічною плівкою  ціна за 1 шт ",
       "avalible": true
    }, 
+   {
+      "id": "tetokulumok",
+      "imageSrc": "img/tetokulumok.png",
+      "blurimg":"img/tetoblur.jpg",
+      "category": "mousepad",
+      "imageHoverSrc": "img/tetokulumokhover.png",
+      "productName": "Килимок \"Тето\"",
+      "productPrice": 350,
+      "productDescription": "Розмір: 22см, 24см ",
+      "avalible": false
+   },
    {
       "id": "alienkeybox",
       "imageSrc": "img/boxalien.png",
