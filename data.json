@@ -1,24 +1,126 @@
 [
+    {
+      "id": "sillyvocaloid",
+      "imageSrc": "img/sillyvocaloid.jpg",
+      "imageHoverSrc": "img/sillyvocaloidhover.PNG",
+      "images": 
+      [
+         "img/sillymiku.jpg",
+         "img/sillyrin.jpg",
+         "img/sillyluka.jpg",
+         "img/sillygumi.jpg",
+         "img/sillyteto.jpg",
+         "img/sillymeiko.jpg",
+         "img/sillyvocaloid.jpg"
+      ],
+      "blurimg":"img/sillyvocaloidblur.jpg",
+      "category": "keychain",
+      "productName": "Брелок \"сілі лоїди\"",
+      "productPrice": 200,
+      "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
+      "avalible": true
+   },
+   {
+      "id": "pantystoc",
+      "imageSrc": "img/pantyxstoc.jpg",
+      "imageHoverSrc": "img/pantystochover.PNG",
+      "images": 
+      [
+         "img/pantyxstoc.jpg",
+         "img/pantystochover.PNG"
+      ],
+      "blurimg":"img/pantyxstocblur.jpg",
+      "category": "keychain",
+      "productName": "Брелок \"Панчошка та Трусяшка\"",
+      "productPrice": 210,
+      "productDescription": "Брелок з кольровим акрилом та маленькою підвіскою ціна за 1 шт ",
+      "avalible": true
+   },
+   {
+      "id": "minivocaloid",
+      "imageSrc": "img/minivocaloid.jpg",
+      "imageHoverSrc": "img/minivocaloidhover.PNG",
+      "images": 
+      [
+         "img/minimiku.jpg",
+         "img/minirin.jpg",
+         "img/minilen.jpg",
+         "img/miniluka.jpg",
+         "img/miniteto.jpg",
+         "img/minimeiko.jpg",
+         "img/minivocaloid.jpg"
+      ],
+      "blurimg":"img/minivocaloidblur.jpg",
+      "category": "keychain",
+      "productName": "Брелок \"міні лоїди\"",
+      "productPrice": 200,
+      "productDescription": "Брелок з голографічним акрилом  ціна за 1 шт ",
+      "avalible": true
+   },
+   {
+      "id": "greenuri",
+      "imageSrc": "img/greenuriall.jpg",
+      "imageHoverSrc": "img/greenurihover.jpg",
+      "images": 
+      [
+         "img/greenuriblack.jpg",
+         "img/greenurired.jpg",
+         "img/greenuriall.jpg"
+      ],
+      "blurimg":"img/greenuriallblur.jpg",
+      "category": "keychain",
+      "productName": "Брелок \"Грін юрі\"",
+      "productPrice": 200,
+      "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
+      "avalible": true
+   },
+   {
+      "id": "wha",
+      "imageSrc": "img/wha.jpg",
+      "imageHoverSrc": "img/whahover.PNG",
+      "images": 
+      [
+         "img/whacoco.jpg",
+         "img/whaagata.jpg",
+         "img/whariche.jpg",
+         "img/n25mizuki.jpg",
+         "img/whatetia.jpg"
+      ],
+      "blurimg":"img/whablur.jpg",
+      "category": "keychain",
+      "productName": "Брелок \"Капелюшки\"",
+      "productPrice": 200,
+      "productDescription": "Брелок з голографічним акрилом  ціна за 1 шт ",
+      "avalible": true
+   },
+   {
+      "id": "n25keychain",
+      "imageSrc": "img/n25keychain.jpg",
+      "imageHoverSrc": "img/n25keychainhover.PNG",
+      "images": 
+      [
+         "img/n25kanade.jpg",
+         "img/n25mafuu.jpg",
+         "img/n25ena.jpg",
+         "img/n25mizuki.jpg",
+         "img/n25keychain.jpg"
+      ],
+      "blurimg":"img/n25blur.png",
+      "category": "keychain",
+      "productName": "Брелок \"N25\"",
+      "productPrice": 200,
+      "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
+      "avalible": true
+   },
    {
       "id": "stikervokaloid",
-      "imageSrc": "img/vocaloidstikerpack.PNG",
+      "imageSrc": "img/sillyvocaloidsticer.jpg",
       "imageHoverSrc": "img/vocaloidstikerpack.PNG",
       "blurimg":"img/vocaloidstikerpack.PNG",
       "category": "sticker",
       "productName": "Стікерпак \"Сілі лоїди\"",
       "productPrice": 60,
       "productDescription": "Стікерпак форматом А6 з сіліками",
-      "avalible": true
-   }, 
-   {
-      "id": "newtetia",
-      "imageSrc": "img/tetianewkeychain.png",
-      "imageHoverSrc": "img/tetianewkeychain.png",
-      "blurimg":"img/tetianewblur.png",
-      "category": "keychain",
-      "productName": "Брелок \"Тетіа\"",
-      "productPrice": 200,
-      "productDescription": "Брелок з переливаючим акрилом  ціна за 1 шт ",
       "avalible": true
    }, 
    {
@@ -36,7 +138,7 @@
       "blurimg":"img/leoneedblur.png",
       "category": "keychain",
       "productName": "Брелок \"Leoneed\"",
-      "productPrice": 200,
+      "productPrice": 112,
       "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -55,7 +157,7 @@
       "blurimg":"img/mmjblur.png",
       "category": "keychain",
       "productName": "Брелок \"MMJ\"",
-      "productPrice": 200,
+      "productPrice": 112,
       "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -72,7 +174,7 @@
       "blurimg":"img/vbsblur.png",
       "category": "keychain",
       "productName": "Брелок \"VBS\"",
-      "productPrice": 200,
+      "productPrice": 112,
       "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    }, 
@@ -111,7 +213,7 @@
       "blurimg":"img/blur/madokakeychain.png",
       "category": "keychain",
       "productName": "Брелок \"Madoka\"",
-      "productPrice": 200,
+      "productPrice": 112,
       "productDescription": "Брелок з голографічним або кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -128,7 +230,7 @@
       "blurimg":"img/blur/alienkey.png",
       "category": "keychain",
       "productName": "Брелок \"Alien stage\"",
-      "productPrice": 200,
+      "productPrice": 112,
       "productDescription": "Брелок з голографічним або кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },

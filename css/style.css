@@ -48,6 +48,7 @@ body {
     padding: 00;
     background-color: #bac92a;
     box-sizing: border-box;
+    z-index: 2;
 }
 
 .flex {
@@ -241,7 +242,7 @@ a {
     inset: 0;
     opacity: 0.6;
     background: #000;
-    z-index: 1;
+    z-index: 2;
 }
 
 
@@ -258,7 +259,7 @@ a {
     border-radius: 40rem;
     background-color: #fff;
     opacity: 1;
-    z-index: 2;
+    z-index: 3;
 }
 
 .bc img {
