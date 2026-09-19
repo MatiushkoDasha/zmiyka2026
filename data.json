@@ -1,5 +1,16 @@
 [
     {
+      "id": "madokastiker",
+      "imageSrc": "img/madokastiker.png",
+      "imageHoverSrc": "img/madokapinhover.png",
+      "blurimg":"img/madokastikerblur.png",
+      "category": "sticker",
+      "productName": "Стікерпак \"Madoka Magica\"",
+      "productPrice": 90,
+      "productDescription": "стікерпак А5 з голографічною плівкою ",
+      "avalible": true
+   },
+   {
       "id": "sillyvocaloid",
       "imageSrc": "img/sillyvocaloid.jpg",
       "imageHoverSrc": "img/sillyvocaloidhover.PNG",
@@ -16,7 +27,7 @@
       "blurimg":"img/sillyvocaloidblur.jpg",
       "category": "keychain",
       "productName": "Брелок \"сілі лоїди\"",
-      "productPrice": 200,
+      "productPrice": 120,
       "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -53,7 +64,7 @@
       "blurimg":"img/minivocaloidblur.jpg",
       "category": "keychain",
       "productName": "Брелок \"міні лоїди\"",
-      "productPrice": 200,
+      "productPrice": 150,
       "productDescription": "Брелок з голографічним акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -70,7 +81,7 @@
       "blurimg":"img/greenuriallblur.jpg",
       "category": "keychain",
       "productName": "Брелок \"Грін юрі\"",
-      "productPrice": 200,
+      "productPrice": 150,
       "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -89,7 +100,7 @@
       "blurimg":"img/whablur.jpg",
       "category": "keychain",
       "productName": "Брелок \"Капелюшки\"",
-      "productPrice": 200,
+      "productPrice": 180,
       "productDescription": "Брелок з голографічним акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -108,7 +119,7 @@
       "blurimg":"img/n25blur.png",
       "category": "keychain",
       "productName": "Брелок \"N25\"",
-      "productPrice": 200,
+      "productPrice": 180,
       "productDescription": "Брелок з кольоровим акрилом  ціна за 1 шт ",
       "avalible": true
    },
@@ -309,17 +320,6 @@
       "productName": "Брелок \"Соніко\"",
       "productPrice": 200,
       "productDescription": "Розмір: 5см, 7см ",
-      "avalible": false
-   },
-   {
-      "id": "madokastiker",
-      "imageSrc": "img/madokastiker.png",
-      "imageHoverSrc": "img/madokapinhover.png",
-      "blurimg":"img/madokastikerblur.png",
-      "category": "sticker",
-      "productName": "Стікерпак \"Madoka Magica\"",
-      "productPrice": 90,
-      "productDescription": "стікерпак А5 з голографічною плівкою ",
       "avalible": false
    },
    {
