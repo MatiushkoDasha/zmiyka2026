@@ -485,7 +485,6 @@ footer {
 
     .tovar_main {
         padding-bottom: 30%;
-        background-image: url(../img/lol2.JPG);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -594,7 +593,6 @@ footer {
         margin-left: 15rem;
         margin-right: 15rem;
         border-radius: 40rem;
-        border: 10rem solid rgb(57, 83, 139);
         padding: 40rem 30rem;
     }
 
@@ -847,7 +845,6 @@ footer {
         margin-left: 10rem;
         margin-right: 10rem;
         border-radius: 40rem;
-        border: 7rem solid rgb(57, 83, 139);
         padding: 30rem 10rem;
     }
 
@@ -996,10 +993,6 @@ main {
 
 .tovar {
     padding: 20rem 10rem;
-}
-
-.tovar {
-    border: 3rem solid rgb(57, 83, 139);
 }
 
 .tovar img {
